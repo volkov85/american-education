@@ -16,6 +16,13 @@ h2 {
 	margin: 0;
 }
 
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+}
+
 .main-header {
 	background-color: #0a3788;
 	background-image: url(../img/stars.png);
@@ -147,7 +154,7 @@ h2 {
 .services {
 	background-image: url(../img/bg2.jpg);
 	background-repeat: no-repeat;
-	/*background-position: center;*/
+	background-position: top center;
 	/*height: 466px;*/
 	display: flex;
 	margin: 0;
@@ -155,8 +162,61 @@ h2 {
 	flex-direction: column;
 	justify-content: center;
 	padding-top: 53px;
+	padding-bottom: 85px;
 }
 
 .services-header {
 	margin: auto;
+	margin-bottom: 13px;
+}
+
+.services img {
+	margin: auto;
+	margin-bottom: 33px;
+}
+
+.services-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	justify-content: center;
+}
+
+.services-item {
+	width: 310px;
+	height: 260px;
+	box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin-right: 60px;
+	text-align: center;
+}
+
+.services-item:last-child {
+	margin-right: 0;
+}
+
+.services-item-desription {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.services-item-header {
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 30px;
+	color: #0a3788;
+}
+
+.services-item-button {
+	width: 103px;
+	height: 26px;
+	border: none;
+	border-radius: 5px;
+	background-color: #3461b0;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
 }
