@@ -1,22 +1,162 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Ubuntu", Arial, sans-serif;
+	font-weight: 400;
+	color: #434343;
+	min-width: 1230px;
+	background-color: #f2f2f2;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+}
+
 .main-header {
 	background-color: #0a3788;
 	background-image: url(../img/stars.png);
 	background-repeat: no-repeat;
 	background-position: center;
+	height: 100px;
 }
 
 .main-navigation {
-
+	display: flex;
+	/*justify-content: center;*/
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	align-items: center;
+	margin-left: 375px;
 }
 
-.main-header-logo {
+.main-header-logo img {
 
 }
 
 .site-navigation {
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	margin-left: 46px;
+	margin-right: 49px;
+	/*width: 858px;*/
+}
 
+.site-navigation li a {
+	font-size: 14px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 14px;
+	white-space: nowrap;
+	letter-spacing: 0.56px;
+}
+
+/*.site-navigation li {
+	padding: 0 28px;
+}*/
+
+/*.site-navigation li:first-child {
+	padding-left: 0;
+}
+
+.site-navigation li:last-child {
+	padding-right: 0;
+}
+*/
+.site-navigation li a:hover {
+	text-decoration: underline;
+	/*font-weight: bold;*/
 }
 
 .main-header-contacts {
+	width: 118px;
+	font-size: 14px;
+	color: #ffffff;
+	text-align: right;
+}
 
+.first-screen {
+	background-image: url(../img/pedro-lastra.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+}
+
+.offer {
+	margin: 0;
+	margin-left: 375px;
+	margin-top: 195px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+
+.first-screen img {
+	position: absolute;
+	top: 320px;
+	left: 1110px;
+}
+
+.offer-description {
+	color: #ffffff;
+	margin-left: 375px;
+	font-size: 30px;
+	margin-top: 37px;
+	margin-bottom: 39px;
+}
+
+.button {
+	margin-left: 375px;
+	width: 300px;
+	height: 68px;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #eeeeee;
+	padding: 0;
+}
+
+.offer-button {
+	background-color: #e72626;
+}
+
+.offer-button:hover {
+	background-color: #cd0303;
+}
+
+.offer-button:active {
+	background-color: #a50101;
+	color:#8e8e8e;
+}
+
+.services {
+	background-image: url(../img/bg2.jpg);
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	/*height: 466px;*/
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 53px;
+}
+
+.services-header {
+	margin: auto;
 }
