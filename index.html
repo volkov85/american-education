@@ -183,29 +183,33 @@
 			как с нами связаться
 		</h2>
 		<img src="img/line4.png" width="105" height="1" alt="Line" class="call-form-line">
-		<ul class="call-form-advantages">
-			<li class="call-form-advantages-item">
-				<img src="img/check-form-adv.png" width="22" height="21" alt="Check">
-				<p class="call-form-advantages-item-description">
-					первичная консультация - бесплатно!
-				</p>
-			</li>
-			<li class="call-form-advantages-item">
-				<img src="img/check-form-adv.png" width="22" height="21" alt="Check">
-				<p class="call-form-advantages-item-description">
-					Подробная консультация - на платной
-					основе без ограничения вопросов
-					и времени.
-				</p>
-			</li>
-		</ul>
-		<form class="call-form-action" action="/auth" method="post">
-			<input type="text" placeholder="Имя">
-			<input type="tel" placeholder="Телефон">
-			<button class="button call-form-action-button">
-				заказать звонок
-			</button>
-		</form>
+		<div class="call-form-wrapper">
+			<ul class="call-form-advantages">
+				<li class="call-form-advantages-item">
+					<img src="img/check-form-adv.png" width="22" height="21" alt="Check" class="call-form-advantages-item-icon">
+					<p class="call-form-advantages-item-description">
+						первичная консультация - бесплатно!
+					</p>
+				</li>
+				<li class="call-form-advantages-item">
+					<img src="img/check-form-adv.png" width="22" height="21" alt="Check" class="call-form-advantages-item-icon">
+					<p class="call-form-advantages-item-description">
+						Подробная консультация - на платной
+						основе без ограничения вопросов
+						и времени.
+					</p>
+				</li>
+			</ul>
+			<form class="call-form-action" action="https://echo.htmlacademy.ru" method="post">
+				<div class="call-form-action-wrapper">
+					<input type="text" placeholder="Имя" class="call-form-action-name">
+					<input type="tel" placeholder="Телефон" class="call-form-action-phone">
+					<button class="button call-form-action-button" type="submit">
+						заказать звонок
+					</button>
+				</div>
+			</form>
+		</div>
 	</section>
 	<section class="contacts">
 		<h2 class="contacts-header">

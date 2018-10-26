@@ -401,8 +401,9 @@ h3 {
 	padding: 0;
 	flex-direction: column;
 	padding-top: 33px;
-	padding-bottom: 53px;
+	padding-bottom: 90px;
 	position: relative;
+	align-items: center;
 }
 
 .call-form-header {
@@ -414,4 +415,107 @@ h3 {
 .call-form-line {
 	margin: auto;
 	margin-bottom: 46px;
+}
+
+.call-form-wrapper {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+}
+
+.call-form-advantages {
+	display: flex;
+	margin: auto;
+	padding: 0;
+	flex-direction: column;
+	list-style: none;
+	max-width: 590px;
+	margin-right: 65px;
+}
+
+.call-form-advantages-item {
+	display: flex;
+}
+
+.call-form-advantages-item:first-child {
+	margin-bottom: 75px;
+}
+
+.call-form-advantages-item-icon{
+	margin: 0;
+	padding: 0;
+	margin-right: 23px;
+}
+
+.call-form-advantages-item-description {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ebebeb;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.call-form-action {
+	width: 434px;
+	border-radius: 5px;
+	background-color: rgba(9, 45, 110, 0.51);
+}
+
+.call-form-action-wrapper {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	padding: 0;
+	align-items: center;
+}
+
+.call-form-action-name {
+	width: 310px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.8px;
+	margin: 40px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+.call-form-action-phone {
+	width: 310px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.8px;
+	margin: 40px;
+	margin-bottom: 0;
+	padding: 20px;
+}
+
+.call-form-action-button {
+	width: 354px;
+	height: 56px;
+	border-radius: 5px;
+	background-color: #e72626;
+	color: #eeeeee;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.9px;
+	margin: 40px;
+}
+
+.call-form-action-button:hover {
+	background-color: #cd0303;
+}
+
+.call-form-action-button:active {
+	background-color: #a50101;
+	color:#8e8e8e;
 }
