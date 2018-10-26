@@ -377,6 +377,7 @@ h3 {
 	background-image: url(../img/bg-5.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: #1d438a;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -490,6 +491,10 @@ h3 {
 	text-transform: uppercase;
 	letter-spacing: 1.9px;
 	margin: 40px;
+}
+
+.g-recaptcha {
+	margin-bottom: 30px;
 }
 
 .call-form-action-button:hover {
