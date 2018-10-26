@@ -76,6 +76,7 @@ h3 {
 	background-image: url(../img/pedro-lastra.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-color: #3e778b;
 	height: 700px;
 	display: flex;
 	flex-direction: column;
@@ -140,6 +141,7 @@ h3 {
 	background-image: url(../img/bg2.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: #fdfdfd;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -220,6 +222,7 @@ h3 {
 	background-image: url(../img/bg-3.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: #5f6a6e;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -285,6 +288,7 @@ h3 {
 	background-image: url(../img/bg-4.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: #fdfdfd;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -512,6 +516,7 @@ h3 {
 	background-image: url(../img/bg-6.png);
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-color: #cd3737;
 	display: flex;
 	margin: 0;
 	padding: 0;
