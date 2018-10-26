@@ -418,6 +418,7 @@ h3 {
 
 .call-form-advantages-item {
 	display: flex;
+	align-items: center;
 }
 
 .call-form-advantages-item:first-child {
