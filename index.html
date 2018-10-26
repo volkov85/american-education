@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 	<header class="main-header">
@@ -202,11 +203,12 @@
 			</ul>
 			<form class="call-form-action" action="https://echo.htmlacademy.ru" method="post">
 				<div class="call-form-action-wrapper">
-					<input type="text" placeholder="Имя" class="call-form-action-name">
-					<input type="tel" placeholder="Телефон" class="call-form-action-phone">
+					<input type="text" placeholder="Имя" class="call-form-action-name" name="Username" required autocomplete="off">
+					<input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone" name="Userphone" required pattern="[0-9]{3}-[0-9]{7}" title="Формат xxx-xxxxxxx" autocomplete="off">
 					<button class="button call-form-action-button" type="submit">
 						заказать звонок
 					</button>
+					<div class="g-recaptcha" data-sitekey="6LdBAncUAAAAAN7SlqqerFXIeCMZRA0DHiDe5RvD"></div>
 				</div>
 			</form>
 		</div>
