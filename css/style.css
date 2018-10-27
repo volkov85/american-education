@@ -218,6 +218,15 @@ h3 {
 	text-transform: uppercase;
 }
 
+.services-item-button:hover {
+	background-color: #274884;
+}
+
+.services-item-button:active {
+	background-color: #1c325a;
+	color:#8e8e8e;
+}
+
 .advantages {
 	background-image: url(../img/bg-3.jpg);
 	background-repeat: no-repeat;
@@ -371,6 +380,17 @@ h3 {
 	margin-top: 20px;
 	}
 
+.english-lessons-button:hover {
+	border-color: #072252;
+	background-color: #deeaff;
+}
+
+.english-lessons-button:active {
+	border-color: #031027;
+	background-color: #deeaff;
+	color:#041533;
+}
+
 .businesswoman {
 	position: absolute;
 	left: 68%;
@@ -433,7 +453,6 @@ h3 {
 	margin: 0;
 	padding: 0;
 	margin-right: 23px;
-	width: 22px;
 }
 
 .call-form-advantages-item-description {
@@ -441,7 +460,7 @@ h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ebebeb;
-	text-align: center;
+	text-align: left;
 	margin: 0;
 	padding: 0;
 }
