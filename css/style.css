@@ -16,6 +16,12 @@ h2 {
 	margin: 0;
 }
 
+@media only screen and (max-width: 1200px) {
+	h2 {
+		font-size: 30px;
+	}
+}
+
 h3 {
 	font-size: 18px;
 	font-weight: 700;
@@ -40,6 +46,15 @@ h3 {
 	align-items: center;
 }
 
+@media only screen and (max-width: 1200px) {
+	.main-navigation {
+		justify-content: space-between;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+
+
 .site-navigation {
 	display: flex;
 	list-style: none;
@@ -49,6 +64,12 @@ h3 {
 	padding: 0;
 	margin-left: 40px;
 	margin-right: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.site-navigation {
+		display: none;
+	}
 }
 
 .site-navigation li a {
@@ -62,7 +83,6 @@ h3 {
 
 .site-navigation li a:hover {
 	text-decoration: underline;
-	/*font-weight: bold;*/
 }
 
 .main-header-contacts {
@@ -70,6 +90,22 @@ h3 {
 	font-size: 14px;
 	color: #ffffff;
 	text-align: right;
+}
+
+@media only screen and (max-width: 1200px) {
+	.main-header-contacts {
+		text-align: center;
+	}
+}
+
+.main-header-burger {
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.main-header-burger {
+		display: block;
+	}
 }
 
 .first-screen {
@@ -95,10 +131,32 @@ h3 {
 	letter-spacing: 4px;
 }
 
+@media only screen and (max-width: 1830px) {
+	.offer {
+		width: 660px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.offer {
+		text-align: center;
+		margin: auto;
+		margin-top: 15%;
+		margin-bottom: 5%;
+		width: 560px;
+	}
+}
+
 .first-screen img {
 	position: absolute;
 	top: 220px;
 	left: 60%;
+}
+
+@media only screen and (max-width: 1200px) {
+	.first-screen img {
+		display: none;
+	}
 }
 
 .offer-description {
@@ -108,6 +166,16 @@ h3 {
 	font-size: 30px;
 	margin-top: 37px;
 	margin-bottom: 39px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.offer-description {
+		text-align: center;
+		margin: auto;
+		width: 460px;
+		margin-top: 0;
+		margin-bottom: 5%;
+	}
 }
 
 .button {
@@ -122,6 +190,13 @@ h3 {
 	letter-spacing: 2px;
 	color: #eeeeee;
 	padding: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+	.button {
+		margin: auto;
+		margin-top: 0;
+	}
 }
 
 .offer-button {
