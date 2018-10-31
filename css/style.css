@@ -32,15 +32,23 @@ h3 {
 }
 
 .main-navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
 	margin: 0;
 	padding: 0;
 	height: 100px;
-	align-items: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 
 .site-navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	list-style: none;
 	text-transform: uppercase;
@@ -81,8 +89,13 @@ h3 {
 	background-position: center;
 	background-color: #3e778b;
 	height: 700px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	position: relative;
 }
 
@@ -145,11 +158,18 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: #f8f7f5;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
 	padding-top: 53px;
 	padding-bottom: 72px;
 }
@@ -165,17 +185,22 @@ h3 {
 }
 
 .services-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	justify-content: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
 }
 
 .services-item {
 	width: 310px;
 	height: 260px;
-	box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+	-webkit-box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+			box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
 	border-radius: 5px;
 	background-color: #ffffff;
 	margin-right: 60px;
@@ -235,10 +260,15 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: #5f6a6e;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	padding-top: 55px;
 	padding-bottom: 90px;
 	position: relative;
@@ -259,15 +289,21 @@ h3 {
 	margin-bottom: 29px;
 	margin-left: 45%;
 	margin-right: 20%;
-	align-self: center;
+	-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+		align-self: center;
 }
 
 .advantages-list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	justify-content: left;
+	-webkit-box-pack: left;
+		-ms-flex-pack: left;
+			justify-content: left;
 	margin-left: 45%;
 	text-align: center;
 }
@@ -305,10 +341,15 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: #fdfdfd;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	padding-top: 33px;
 	padding-bottom: 8px;
 	position: relative;
@@ -347,8 +388,13 @@ h3 {
 }
 
 .english-lessons-skills {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -356,6 +402,8 @@ h3 {
 }
 
 .english-lessons-skills-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-bottom: 10px;
 }
@@ -409,14 +457,21 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: #1d438a;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	padding-top: 33px;
 	padding-bottom: 77px;
 	position: relative;
-	align-items: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 
 .call-form-header {
@@ -431,25 +486,39 @@ h3 {
 }
 
 .call-form-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+			flex-direction: row;
 }
 
 .call-form-advantages {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: auto;
 	padding: 0;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	list-style: none;
 	max-width: 590px;
 	margin-right: 65px;
 }
 
 .call-form-advantages-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 
 .call-form-advantages-item:first-child {
@@ -473,11 +542,18 @@ h3 {
 }
 
 .call-form-action-wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: auto;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	padding: 0;
-	align-items: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
 }
 
 .call-form-action-name {
@@ -537,13 +613,19 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-color: #cd3737;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
 	padding-top: 23px;
 	padding-bottom: 22px;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
 }
 
 .contacts-header {
@@ -569,8 +651,13 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: top center;
 	height: 100px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+			flex-direction: column;
 	margin: 0;
 	padding: 0;
 }
@@ -579,6 +666,8 @@ h3 {
 	font-size: 14px;
 	color: #ffffff;
 	text-align: right;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -604,15 +693,23 @@ h3 {
 }
 
 .footer-navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: 0;
 	padding: 0;
 	height: 100px;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
 }
 
 .site-navigation-footer {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	list-style: none;
 	text-transform: uppercase;
@@ -669,7 +766,9 @@ h3 {
 	}
 	.advantages-list {
 		margin-left: 0;
-		justify-content: center;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
 	}
 	.advantages-item-description {
 		width: 140px;
@@ -700,7 +799,9 @@ h3 {
 		font-size: 30px;
 	}
 	.main-navigation {
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -731,13 +832,20 @@ h3 {
 		margin-bottom: 5%;
 	}
 	.services {
-		align-items: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 	}
 	.services-list {
-		justify-content: center;
-		align-items: center;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 		max-width: 700px;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
 	}
 	.services-item {
 		margin-right: 20px;
@@ -756,7 +864,9 @@ h3 {
 	}
 	.english-lessons-skills-header {
 		margin-left: 10%;
-		justify-content: center;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
 	}
 	.english-lessons-skills {
 		margin-left: 10%;
@@ -769,10 +879,15 @@ h3 {
 		padding-bottom: 25px;
 	}
 	.call-form-wrapper {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
 	}
 	.call-form-action {
-		order: -1;
+		-webkit-box-ordinal-group: 0;
+			-ms-flex-order: -1;
+				order: -1;
 		margin: auto;
 	}
 	.call-form-action-button {
@@ -790,7 +905,9 @@ h3 {
 		text-align: center;
 	}
 	.footer-navigation {
-		justify-content: space-between;
+		-webkit-box-pack: justify;
+			-ms-flex-pack: justify;
+				justify-content: space-between;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -816,7 +933,8 @@ h3 {
 		background-image: url(../img/bg-header-tablet.png);
 	}
 	.main-navigation {
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
 	}
 	.site-navigation {
 		display: none;
@@ -835,7 +953,8 @@ h3 {
 		letter-spacing: 2px;
 	}
 	.first-screen {
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
 		background-image: url(../img/bg-1-tablet.jpg);
 		height: 400px
 	}
@@ -850,17 +969,24 @@ h3 {
 		font-size: 20px;
 	}
 	.services {
-		align-items: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 	}
 	.services-header {
 		width: 180px;
 		text-align: center;
 	}
 	.services-list {
-		justify-content: center;
-		align-items: center;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
 		max-width: 320px;
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
 	}
 	.services-item {
 		margin: auto;
@@ -885,8 +1011,12 @@ h3 {
 		padding-bottom: 5%;
 	}
 	.advantages-list {
-		flex-direction: row;
-		flex-wrap: wrap;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: row;
+				flex-direction: row;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
 	}
 	.advantages-item-description {
 		width: 135px;
@@ -919,7 +1049,9 @@ h3 {
 	}
 	.english-lessons-skills-header {
 		margin-left: 10%;
-		justify-content: center;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
 		font-size: 12px;
 		width: 272px;
 	}
@@ -940,10 +1072,15 @@ h3 {
 		background-image: url(../img/bg-5-tablet.png);
 	}
 	.call-form-wrapper {
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
 	}
 	.call-form-action {
-		order: -1;
+		-webkit-box-ordinal-group: 0;
+			-ms-flex-order: -1;
+				order: -1;
 		margin: auto;
 		width: 320px;
 	}
@@ -980,7 +1117,8 @@ h3 {
 		display: none;
 	}
 	.footer-navigation {
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+			justify-content: space-around;
 	}
 	.site-navigation-footer {
 		display: none;
