@@ -9,23 +9,11 @@ body {
 	background-color: #f2f2f2;
 }
 
-@media only screen and (max-width: 1200px) {
-	body {
-		min-width: 768px;
-	}
-}
-
 h2 {
 	font-size: 30px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0;
-}
-
-@media only screen and (max-width: 1200px) {
-	h2 {
-		font-size: 30px;
-	}
 }
 
 h3 {
@@ -52,15 +40,6 @@ h3 {
 	align-items: center;
 }
 
-@media only screen and (max-width: 1200px) {
-	.main-navigation {
-		justify-content: space-between;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-}
-
-
 .site-navigation {
 	display: flex;
 	list-style: none;
@@ -70,12 +49,6 @@ h3 {
 	padding: 0;
 	margin-left: 40px;
 	margin-right: 40px;
-}
-
-@media only screen and (max-width: 1200px) {
-	.site-navigation {
-		display: none;
-	}
 }
 
 .site-navigation li a {
@@ -98,20 +71,8 @@ h3 {
 	text-align: right;
 }
 
-@media only screen and (max-width: 1200px) {
-	.main-header-contacts {
-		text-align: center;
-	}
-}
-
 .main-header-burger {
 	display: none;
-}
-
-@media only screen and (max-width: 1200px) {
-	.main-header-burger {
-		display: block;
-	}
 }
 
 .first-screen {
@@ -137,32 +98,10 @@ h3 {
 	letter-spacing: 4px;
 }
 
-@media only screen and (max-width: 1830px) {
-	.offer {
-		width: 660px;
-	}
-}
-
-@media only screen and (max-width: 1200px) {
-	.offer {
-		text-align: center;
-		margin: auto;
-		margin-top: 15%;
-		margin-bottom: 5%;
-		max-width: 560px;
-	}
-}
-
 .first-screen img {
 	position: absolute;
 	top: 220px;
 	left: 60%;
-}
-
-@media only screen and (max-width: 1200px) {
-	.first-screen img {
-		display: none;
-	}
 }
 
 .offer-description {
@@ -172,16 +111,6 @@ h3 {
 	font-size: 30px;
 	margin-top: 37px;
 	margin-bottom: 39px;
-}
-
-@media only screen and (max-width: 1200px) {
-	.offer-description {
-		text-align: center;
-		margin: auto;
-		max-width: 460px;
-		margin-top: 0;
-		margin-bottom: 5%;
-	}
 }
 
 .button {
@@ -196,13 +125,6 @@ h3 {
 	letter-spacing: 2px;
 	color: #eeeeee;
 	padding: 0;
-}
-
-@media only screen and (max-width: 1200px) {
-	.button {
-		margin: auto;
-		margin-top: 0;
-	}
 }
 
 .offer-button {
@@ -222,7 +144,7 @@ h3 {
 	background-image: url(../img/bg2.jpg);
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-color: #fdfdfd;
+	background-color: #f8f7f5;
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -230,12 +152,6 @@ h3 {
 	justify-content: center;
 	padding-top: 53px;
 	padding-bottom: 72px;
-}
-
-@media only screen and (max-width: 1200px) {
-	.services {
-		align-items: center;
-	}
 }
 
 .services-header {
@@ -256,15 +172,6 @@ h3 {
 	justify-content: center;
 }
 
-@media only screen and (max-width: 1200px) {
-	.services-list {
-		justify-content: center;
-		align-items: center;
-		max-width: 700px;
-		flex-wrap: wrap;
-	}
-}
-
 .services-item {
 	width: 310px;
 	height: 260px;
@@ -273,13 +180,6 @@ h3 {
 	background-color: #ffffff;
 	margin-right: 60px;
 	text-align: center;
-}
-
-@media only screen and (max-width: 1200px) {
-	.services-item {
-		margin-right: 20px;
-		margin-bottom: 20px;
-	}
 }
 
 .services-item:last-child {
@@ -372,6 +272,7 @@ h3 {
 	text-align: center;
 }
 
+
 .advantages-item-description {
 	color: #e3e3e3;
 	font-size: 18px;
@@ -382,6 +283,7 @@ h3 {
 	padding-top: 15px;
 }
 
+
 .advantages-students {
 	position: absolute;
 	left: 19%;
@@ -390,6 +292,8 @@ h3 {
 
 .advantages-item:nth-child(2) {
 	padding-top: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .advantages-item:nth-child(3) {
@@ -550,12 +454,6 @@ h3 {
 
 .call-form-advantages-item:first-child {
 	margin-bottom: 75px;
-}
-
-.call-form-advantages-item-icon{
-	margin: 0;
-	padding: 0;
-	margin-right: 23px;
 }
 
 .call-form-advantages-item-description {
@@ -741,3 +639,170 @@ h3 {
 .main-footer-logo {
 	margin: 0;
 }
+
+.main-footer-icon {
+	display: none;
+}
+
+@media only screen and (max-width: 1830px) {
+	.offer {
+		width: 660px;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	.advantages-students {
+		width: 375px;
+		height: 327px;
+		top: 80px;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.advantages-header {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.advantages-line {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.advantages-list {
+		margin-left: 0;
+		justify-content: center;
+	}
+	.advantages-item-description {
+		width: 140px;
+	}
+	.advantages-students {
+		display: none;
+	}
+	.advantages-item:nth-child(2) {
+		padding-top: 0;
+	}
+	.advantages-item:nth-child(3) {
+		padding-top: 0;
+		margin-top: 17px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.businesswoman {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	body {
+		min-width: 768px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.main-navigation {
+		justify-content: space-between;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.site-navigation {
+		display: none;
+	}
+	.main-header-contacts {
+		text-align: center;
+	}
+	.main-header-burger {
+		display: block;
+	}
+	.offer {
+		text-align: center;
+		margin: auto;
+		margin-top: 20%;
+		margin-bottom: 5%;
+		max-width: 560px;
+	}
+	.first-screen img {
+		display: none;
+	}
+	.offer-description {
+		text-align: center;
+		margin: auto;
+		max-width: 460px;
+		margin-top: 0;
+		margin-bottom: 5%;
+	}
+	.services {
+		align-items: center;
+	}
+	.services-list {
+		justify-content: center;
+		align-items: center;
+		max-width: 700px;
+		flex-wrap: wrap;
+	}
+	.services-item {
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	.button {
+		margin: auto;
+		margin-top: 0;
+	}
+	.english-lessons-header  {
+		width: 530px;
+		text-align: center;
+	}
+	.english-lessons-description {
+		margin-left: 10%;
+	}
+	.english-lessons-skills-header {
+		margin-left: 10%;
+		justify-content: center;
+	}
+	.english-lessons-skills {
+		margin-left: 10%;
+	}
+	.english-lessons-button {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.call-form {
+		padding-bottom: 25px;
+	}
+	.call-form-wrapper {
+		flex-direction: column;
+	}
+	.call-form-action {
+		order: -1;
+		margin: auto;
+	}
+	.call-form-action-button {
+		margin: 40px;
+	}
+	.call-form-advantages {
+		margin: auto;
+		margin-top: 30px;
+	}
+	.call-form-advantages-item:first-child {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.call-form-advantages-item-description {
+		text-align: center;
+	}
+	.footer-navigation {
+		justify-content: space-between;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.site-navigation-footer {
+		display: none;
+	}
+	.main-footer-icon {
+		display: block;
+	}
+}
+
+
+
+
+
