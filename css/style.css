@@ -802,7 +802,193 @@ h3 {
 	}
 }
 
-
-
-
-
+@media only screen and (max-width: 768px) {
+	body {
+		min-width: 320px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.main-header {
+		background-image: url(../img/bg-header-tablet.png);
+	}
+	.main-navigation {
+		justify-content: space-between;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.site-navigation {
+		display: none;
+	}
+	.main-header-contacts {
+		text-align: center;
+	}
+	.main-header-burger {
+		display: block;
+	}
+	.offer {
+		text-align: center;
+		margin: auto;
+		max-width: 290px;
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	.first-screen {
+		justify-content: space-around;
+		background-image: url(../img/bg-1-tablet.jpg);
+		height: 400px
+	}
+	.first-screen img {
+		display: none;
+	}
+	.offer-description {
+		text-align: center;
+		margin: auto;
+		max-width: 230px;
+		margin-top: 0;
+		font-size: 20px;
+	}
+	.services {
+		align-items: center;
+	}
+	.services-header {
+		width: 180px;
+		text-align: center;
+	}
+	.services-list {
+		justify-content: center;
+		align-items: center;
+		max-width: 320px;
+		flex-wrap: wrap;
+	}
+	.services-item {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.services-item:last-child {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.button {
+		margin: auto;
+		margin-top: 0;
+	}
+	.offer-button {
+		width: 235px;
+		height: 57px;
+		font-size: 16px;
+	}
+	.advantages {
+		background-image: url(../img/bg-3-tablet.jpg);
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.advantages-list {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.advantages-item-description {
+		width: 135px;
+		margin: 0 auto;
+	}
+	.advantages-item:nth-child(2) {
+		padding: 0;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.advantages-item:nth-child(3) {
+		margin-top: 17px;
+		margin-right: 5%;
+	}
+	.advantages-item:first-child {
+		padding: 0;
+		margin-left: 5%;
+	}
+	.english-lessons {
+		background-image: none;
+	}
+	.english-lessons-header {
+		width: 275px;
+		text-align: center;
+	}
+	.english-lessons-description {
+		margin-left: 10%;
+		width: 275px;
+		font-size: 12px;
+	}
+	.english-lessons-skills-header {
+		margin-left: 10%;
+		justify-content: center;
+		font-size: 12px;
+		width: 272px;
+	}
+	.english-lessons-skills {
+		margin-left: 10%;
+		line-height: 20px;
+	}
+	.english-lessons-button {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 280px;
+		height: 44px;
+		font-size: 15px;
+		letter-spacing: 1.91px;
+	}
+	.call-form {
+		padding-bottom: 25px;
+	}
+	.call-form-wrapper {
+		flex-direction: column;
+	}
+	.call-form-action {
+		order: -1;
+		margin: auto;
+		width: 320px;
+	}
+	.call-form-action-name {
+		width: 262px;
+		font-size: 13px;
+		padding: 15px;
+	}
+	.call-form-action-phone {
+		width: 262px;
+		font-size: 13px;
+		padding: 15px;
+}
+	.call-form-action-button {
+		margin: 30px;
+		width: 262px;
+		height: 42px;
+		font-size: 14px;
+	}
+	.call-form-advantages {
+		margin: auto;
+		margin-top: 30px;
+	}
+	.call-form-advantages-item:first-child {
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.call-form-advantages-item-description {
+		text-align: center;
+		font-size: 12px;
+		width: 275px;
+	}
+	.contacts-header {
+		display: none;
+	}
+	.footer-navigation {
+		justify-content: space-between;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.site-navigation-footer {
+		display: none;
+	}
+	.main-footer-icon {
+		display: block;
+	}
+}
