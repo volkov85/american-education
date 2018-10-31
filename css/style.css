@@ -816,9 +816,7 @@ h3 {
 		background-image: url(../img/bg-header-tablet.png);
 	}
 	.main-navigation {
-		justify-content: space-between;
-		margin-left: 5%;
-		margin-right: 5%;
+		justify-content: space-around;
 	}
 	.site-navigation {
 		display: none;
@@ -939,6 +937,7 @@ h3 {
 	}
 	.call-form {
 		padding-bottom: 25px;
+		background-image: url(../img/bg-5-tablet.png);
 	}
 	.call-form-wrapper {
 		flex-direction: column;
@@ -981,9 +980,7 @@ h3 {
 		display: none;
 	}
 	.footer-navigation {
-		justify-content: space-between;
-		margin-left: 5%;
-		margin-right: 5%;
+		justify-content: space-around;
 	}
 	.site-navigation-footer {
 		display: none;
