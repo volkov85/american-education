@@ -27,9 +27,9 @@
 					РК, г Астана, ул. Сыганак 21/1, офис 24, +7-701-914-0559
 				</p>
 			</div>
-			<div class="main-header-burger">
+			<!--<div class="main-header-burger">
 				<img src="img/burger.png" width="35" height="25" alt="Burger">
-			</div>
+			</div>-->
 			<!--<div class="main-header-burger-menu">
 				<div class="main-header-burger-menu-crosslines">
 					<img src="img/crosslines.png" width="17" height="17" alt="CloseButton">
@@ -42,6 +42,21 @@
 					<li><a href="#">Курс английского языка</a></li>
 				</ul>
 			</div>-->
+			<div class="wrapper">
+				<input type="checkbox" id="check-menu">
+				<label for="check-menu"></label>
+				<div class="burger-line first"></div>
+				<div class="burger-line second"></div>
+				<div class="burger-line third"></div>
+				<div class="burger-line fourth"></div>
+				<nav class="main-menu">
+					<a href="#">Главная</a>
+					<a href="#">Программы и курсы</a>
+					<a href="#">Процесс подачи на визу</a>
+					<a href="#">Консультации</a>
+					<a href="#">Курс английского языка</a>
+				</nav>
+			</div>
 		</nav>
 	</header>
 	<section class="first-screen">
@@ -252,12 +267,13 @@
 				</p>
 			</div>
 			<div class="main-footer-icon">
-				<img src="img/UpIcon.png" width="30" height="30" alt="UpIcon">
+				<img src="img/UpIcon.png" width="30" height="30" alt="UpIcon" onclick="return up()">
 			</div>
 		</nav>
 		<p class="main-footer-copyright">
 			2018/Все права защищены
 		</p>
 	</footer>
+	<script src="js/up_script.js"></script>
 </body>
 </html>
