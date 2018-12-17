@@ -67,6 +67,7 @@ h3 {
 	padding: 0 14px;
 	white-space: nowrap;
 	letter-spacing: 0.56px;
+	cursor: pointer;
 }
 
 .site-navigation li a:hover {
@@ -106,6 +107,11 @@ h3 {
 		-ms-flex-direction: column;
 			flex-direction: column;
 	position: relative;
+}
+
+.about-first {
+	background-image: url(../img/about_bg1.jpg);
+	height: 740px;
 }
 
 .offer {
@@ -734,6 +740,7 @@ h3 {
 	padding: 0 14px;
 	white-space: nowrap;
 	letter-spacing: 0.56px;
+	cursor: pointer;
 }
 
 .site-navigation-footer li a:hover {
@@ -816,52 +823,6 @@ h3 {
 	.main-header-contacts {
 		text-align: center;
 	}
-/*	.main-header-burger {
-		display: block;
-	}
-	/*.main-header-burger-menu {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-			justify-content: center;
-		position: absolute;
-		z-index: 1;
-		top: 0;
-		right: 0;
-		width: 320px;
-		height: 345px;
-		background-color: #ffffff;
-		flex-direction: column;
-	}
-	.main-header-burger-menu-crosslines {
-		margin: 5% auto;
-		padding: 0;
-		margin-left: 87%;
-	}
-	.main-header-burger-menu-nav {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto;
-	}
-	.main-header-burger-menu-nav li {
-		margin-bottom: 15%;
-	}
-	.main-header-burger-menu-nav li a {
-		text-decoration: none;
-		color: #000000;
-		font-size: 14px;
-		font-weight: 700;
-		line-height: 24px;
-		text-transform: uppercase;
-		letter-spacing: 0.56px;
-	}*/
 
 	/*Бургер меню*/
 	.main-navigation .wrapper{
@@ -887,6 +848,10 @@ h3 {
 		cursor: pointer;
 		z-index: 2;
 		line-height: 40px;
+	}
+
+	.wrapper a {
+		cursor: pointer;
 	}
 
 	.burger-line{

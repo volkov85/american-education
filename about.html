@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нашей компании</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a href="#" class="main-header-logo">
+        <img src="img/logo.png" width="71" height="69" alt="Logo">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="study.html">Обучение в сша</a></li>
+        <li><a href="visa.html">Оформление виз</a></li>
+        <li><a href="summer.html">Летние программы</a></li>
+        <li><a href="englishlessons.html">Курс английского языка</a></li>
+        <li><a>О нас</a></li>
+      </ul>
+      <div class="main-header-contacts">
+        <p>
+          РК, г Астана, +7-701-914-0559
+        </p>
+      </div>
+      <div class="wrapper">
+        <input type="checkbox" id="check-menu">
+        <label for="check-menu"></label>
+        <div class="burger-line first"></div>
+        <div class="burger-line second"></div>
+        <div class="burger-line third"></div>
+        <div class="burger-line fourth"></div>
+        <nav class="main-menu">
+          <a href="index.html">Главная</a>
+          <a href="study.html">Обучение в сша</a>
+          <a href="visa.html">Оформление виз</a>
+          <a href="summer.html">Летние программы</a>
+          <a href="englishlessons.html">Курс английского языка</a>
+          <a>О нас</a>
+        </nav>
+      </div>
+    </nav>
+  </header>
+  <section class="first-screen about-first">
+  </section>
+  <section class="call-form" id="scroll-contacts">
+    <h2 class="call-form-header">
+      как с нами связаться
+    </h2>
+    <img src="img/line4.png" width="105" height="1" alt="Line" class="call-form-line">
+    <div class="call-form-wrapper">
+      <ul class="call-form-advantages">
+        <li class="call-form-advantages-item">
+          <p class="call-form-advantages-item-description">
+            первичная консультация - бесплатно!
+          </p>
+        </li>
+        <li class="call-form-advantages-item">
+          <p class="call-form-advantages-item-description">
+            Подробная консультация - на платной основе без ограничения вопросов и времени.
+          </p>
+        </li>
+      </ul>
+      <form class="call-form-action" action="https://echo.htmlacademy.ru" method="post">
+        <div class="call-form-action-wrapper">
+          <input type="text" placeholder="Имя" class="call-form-action-name" name="Username" required autocomplete="off">
+          <input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone" name="Userphone" required pattern="[0-9]{3}-[0-9]{7}" title="Формат xxx-xxxxxxx" autocomplete="off">
+          <button class="button call-form-action-button" type="submit">
+            заказать звонок
+          </button>
+          <div class="g-recaptcha" data-sitekey="6LdBAncUAAAAAN7SlqqerFXIeCMZRA0DHiDe5RvD"></div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <nav class="footer-navigation">
+      <a href="#" class="main-footer-logo">
+        <img src="img/logo.png" width="71" height="69" alt="Logo">
+      </a>
+      <ul class="site-navigation-footer">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="study.html">Обучение в сша</a></li>
+        <li><a href="visa.html">Оформление виз</a></li>
+        <li><a href="summer.html">Летние программы</a></li>
+        <li><a href="englishlessons.html">Курс английского языка</a></li>
+        <li><a>О нас</a></li>
+      </ul>
+      <div class="main-header-phone">
+        <img src="img/phone-icon.png" width="13" height="14" alt="Phone Icon" class="main-footer-phone-icon">
+        <p class="main-footer-phone-number">
+          +7-701-914-0559
+        </p>
+      </div>
+      <div class="main-footer-icon">
+        <img src="img/UpIcon.png" width="30" height="30" alt="UpIcon" onclick="return up()">
+      </div>
+    </nav>
+    <p class="main-footer-copyright">
+      2018/Все права защищены
+    </p>
+  </footer>
+  <script src="js/up_script.js"></script>
+</body>
+</html>
