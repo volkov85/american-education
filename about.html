@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<body>
+<body class="big-wrapper">
   <header class="main-header">
     <nav class="main-navigation">
       <a href="#" class="main-header-logo">
@@ -47,8 +47,48 @@
     </nav>
   </header>
   <section class="first-screen about-first">
+    <h1 class="visually-hidden">О компании American Education</h1>
+    <p class="about-quote">
+      “Поняв уровень дезинформации
+      на рынке, я твердо решил
+      войти в него в качестве
+      нового игрока, у которого
+      есть как теоретический, так
+      и практический опыт”
+    </p>
+    <p class="about-quote quote-sign">
+      Улан Ахметов
+    </p>
   </section>
-  <section class="call-form" id="scroll-contacts">
+  <section class="about-info">
+    <h2 class="about-info-header">О нас</h2>
+    <img src="img/line.png" width="113" height="1" alt="Line">
+    <ul class="list-info">
+      <li>
+        <p class="info-prg">Улан Ахметов - опыт работы в Посольстве США с 2003 по 2014 годы.<br>
+        Работал Ассистентом Консула по неиммиграционным визам и американским гражданам.</p>
+      </li>
+      <li>
+        <p class="info-prg">С 2014 года оказывает услуги по оформлению виз США, Канады и Великобритании.</p>
+      </li>
+      <li>
+        <p class="info-prg">Содействие в выборе языковых школ и университетов США и Канады.</p>
+      </li>
+      <li>
+        <p class="info-prg">Содействие по покупке или открытию бизнеса в США.</p>
+      </li>
+      <li>
+        <p class="info-prg">Открыт к сотрудничеству по корпоративному английскому языку.</p>
+      </li>
+      <li>
+        <p class="info-prg">Подготовка к сдаче IELTS.</p>
+      </li>
+      <li>
+        <p class="info-prg">Улан Ахметов является основателем компании American Education.</p>
+      </li>
+    </ul>
+  </section>
+  <section class="call-form call-form-about" id="scroll-contacts">
     <h2 class="call-form-header">
       как с нами связаться
     </h2>
@@ -70,6 +110,7 @@
         <div class="call-form-action-wrapper">
           <input type="text" placeholder="Имя" class="call-form-action-name" name="Username" required autocomplete="off">
           <input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone" name="Userphone" required pattern="[0-9]{3}-[0-9]{7}" title="Формат xxx-xxxxxxx" autocomplete="off">
+          <textarea class="call-form-action-text" name="theme" placeholder="Тема консультации" maxlength="150"></textarea>
           <button class="button call-form-action-button" type="submit">
             заказать звонок
           </button>

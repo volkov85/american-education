@@ -9,6 +9,15 @@ body {
 	background-color: #f2f2f2;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h2 {
 	font-size: 30px;
 	font-weight: 700;
@@ -21,6 +30,17 @@ h3 {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .main-header {
@@ -98,7 +118,6 @@ h3 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-color: #3e778b;
-	height: 700px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -107,11 +126,29 @@ h3 {
 		-ms-flex-direction: column;
 			flex-direction: column;
 	position: relative;
+	height: 700px;
 }
 
-.about-first {
-	background-image: url(../img/about_bg1.jpg);
-	height: 740px;
+.big-wrapper .about-first {
+  background-image: url(../img/about_bg1.jpg);
+}
+
+.about-quote {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  margin-left: 20%;
+  margin-top: 150px;
+}
+
+.quote-sign {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 55px;
+  margin-bottom: 250px;
 }
 
 .offer {
@@ -595,6 +632,20 @@ h3 {
 	padding: 20px;
 }
 
+.call-form-action-text {
+	width: 310px;
+	border-radius: 5px;
+	background-color: #e8e8e8;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.8px;
+	margin: 40px;
+	margin-bottom: 0;
+	padding: 20px;
+	resize: none;
+}
+
 .call-form-action-button {
 	width: 354px;
 	height: 56px;
@@ -754,6 +805,60 @@ h3 {
 .main-footer-icon {
 	display: none;
 }
+
+/*Код страницы О компании - секция инфо*/
+.about-info {
+  background-image: url(../img/about-bg2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-info-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 60px;
+}
+.list-info {
+  list-style: none;
+  margin-bottom: 135px;
+  padding: 50px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.671;
+  box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
+  width: 60%;
+}
+.list-info li {
+  padding: 0;
+  opacity: 1;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+}
+.about-info img {
+  margin: auto;
+  margin-bottom: 33px;
+}
+.info-prg {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+/*--------------------------------------*/
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1830px) {
 	.offer {
