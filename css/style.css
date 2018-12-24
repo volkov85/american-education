@@ -129,10 +129,6 @@ h3 {
 	height: 700px;
 }
 
-.big-wrapper .about-first {
-  background-image: url(../img/about_bg1.jpg);
-}
-
 .about-quote {
   color: #ffffff;
   font-size: 36px;
@@ -700,7 +696,6 @@ h3 {
 
 .contacts-address {
 	width: 254px;
-	height: 61px;
 	color: #efefef;
 	font-size: 18px;
 	font-weight: 400;
@@ -809,29 +804,48 @@ h3 {
 /*Код страницы О компании - секция инфо*/
 .about-info {
   background-image: url(../img/about-bg2.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
+
+.call-form-about {
+  background-image: url(../img/about-bg3.jpg);
+  background-color: #f8f8f8;
+}
+
+.big-wrapper .about-first {
+  background-image: url(../img/about_bg1.jpg);
+}
+
+.about-first img {
+  top: 170px;
+}
+
 .about-info-header {
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  margin-top: 60px;
+  margin-top: 40px;
 }
+
 .list-info {
   list-style: none;
-  margin-bottom: 135px;
-  padding: 50px;
+  margin: 0;
+  margin-bottom: 70px;
+  padding: 25px;
+  padding-left: 80px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
   opacity: 0.671;
   box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
   width: 60%;
 }
+
 .list-info li {
   padding: 0;
   opacity: 1;
@@ -839,14 +853,70 @@ h3 {
   color: rgb(0, 0, 0);
   line-height: 1.667;
 }
+
 .about-info img {
   margin: auto;
   margin-bottom: 33px;
 }
+
 .info-prg {
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
+  position: relative;
+}
+
+.info-prg::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  background: url(../img/check-icon.png) no-repeat center center;
+  left: -40px;
+  top: 8px;
+}
+
+.about-form-header {
+  font-size: 30px;
+  color: #434343;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.about-form-desc {
+  color: #434343;
+}
+
+.about-call-form-action {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.about-call-form-action-name {
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.about-call-form-action-phone {
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.about-call-form-action-text {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.call-form-action .about-form-wrapper {
+  border-width: 2px;
+  border-color: rgb(8, 42, 103);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.671;
+  box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
 }
 /*--------------------------------------*/
 
