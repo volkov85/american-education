@@ -801,7 +801,7 @@ h3 {
 	display: none;
 }
 
-/*Код страницы О компании - секция инфо*/
+/*Код страницы О компании */
 .about-info {
   background-image: url(../img/about-bg2.jpg);
   background-repeat: no-repeat;
@@ -922,7 +922,29 @@ h3 {
 
 
 
+/*Стили для страницы Обучение*/
+.study-first-screen {
+  background-image: url(../img/study_bg1.jpg);
+  height: 500px;
+}
 
+.study-offer {
+  text-align: center;
+  margin: auto;
+  width: 890px;
+  vertical-align: middle;
+}
+
+.study-cities {
+  background-image: url(../img/study_bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*--------------------------------------*/
 
 
 
