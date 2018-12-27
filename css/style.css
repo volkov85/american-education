@@ -1699,6 +1699,19 @@ h3 {
   .english-offer {
     font-size: 30px;
   }
+
+
+  .about-quote, 
+  .quote-sign {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  .about-quote {
+    margin-top: 10%;
+  }
 }
 
 
@@ -1963,5 +1976,19 @@ h3 {
     justify-content: space-around;
     background-image: url(../img/english-bg1.jpg);
     height: 400px;
+  }
+
+
+  .about-quote, 
+  .quote-sign {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+
+  .call-form-about {
+    background-image: url(../img/about-bg3.jpg)
   }
 }
