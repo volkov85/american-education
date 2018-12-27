@@ -1057,7 +1057,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  width: 1200px;
+  width: 75%;
 }
 
 .visa-card {
@@ -1090,7 +1090,7 @@ h3 {
 }
 
 .visa-title {
-  width: 400px;
+  width: 100%;
   color: #0a3788;
   font-size: 24px;
   font-weight: 500;
@@ -1369,7 +1369,11 @@ h3 {
 
 @media only screen and (max-width: 1830px) {
   .offer {
-    width: 660px;
+    width: 80%;
+  }
+
+  .visa-first .visa-offer {
+    max-width: 80%;
   }
 }
 
@@ -1645,8 +1649,19 @@ h3 {
   .city-button {
     margin-bottom: 20px;
   }
-/*-------------------------------------------*/
+/*---------------------------------------------------*/
+
+
+  /*----------------------Страница Визы------------*/
+  .visa-button {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+/*-----------------------------------------------------*/
 }
+
+
+
 
 @media only screen and (max-width: 768px) {
   body {
@@ -1872,5 +1887,20 @@ h3 {
   .city-wrapper {
     width: 380px;
   }
-/*-------------------------------------------*/
+/*-----------------------------------------------------*/
+
+
+  /*----------------------Страница Визы------------*/
+  .visa-button {
+    margin-bottom: 20px;
+  }
+  .visa-first {
+    justify-content: space-around;
+    background-image: url(../img/visa_bg1.jpg);
+    height: 400px;
+  }
+  .visa-card {
+    width: 380px;
+  }
+/*-----------------------------------------------------*/
 }
