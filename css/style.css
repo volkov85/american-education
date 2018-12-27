@@ -1231,6 +1231,7 @@ h3 {
 .summer-cont-wrapper {
   width: 95%;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .summer-cont-head {
@@ -1336,6 +1337,19 @@ h3 {
   font-size: 40px;
 }
 
+.english-list p {
+  width: 350px;
+}
+
+.english-item:nth-child(1)::before {
+  height: 115px;
+  background: url(../img/eng-ico1.png) no-repeat center center;
+}
+
+.english-item:nth-child(2)::before {
+  height: 115px;
+  background: url(../img/eng-ico2.png) no-repeat center center;
+}
 /*--------------------------------------*/
 
 
