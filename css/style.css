@@ -945,7 +945,7 @@ h3 {
 }
 
 .study-big-wrapper {
-  width: 1200px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -980,12 +980,13 @@ h3 {
   margin: 0;
   border-radius: 10px 10px 0 0;
   padding: 20px 0;
-  width: 430px;
+  width: 100%;
 }
 
 .city-img {
   margin: 20px 0;
   box-shadow: 0 2px 2px #e4e4e4;
+  max-width: 90%;
 }
 
 .city-button {
@@ -1640,6 +1641,11 @@ h3 {
   .main-footer-icon {
     display: block;
   }
+/*----------------------Страница Обучение------------*/
+  .city-button {
+    margin-bottom: 20px;
+  }
+/*-------------------------------------------*/
 }
 
 @media only screen and (max-width: 768px) {
@@ -1854,4 +1860,17 @@ h3 {
   .main-footer-icon {
     display: block;
   }
+  /*----------------------Страница Обучение------------*/
+  .city-button {
+    margin-bottom: 20px;
+  }
+  .study-first-screen {
+    justify-content: space-around;
+    background-image: url(../img/study_bg1.jpg);
+    height: 400px;
+  }
+  .city-wrapper {
+    width: 380px;
+  }
+/*-------------------------------------------*/
 }
