@@ -224,7 +224,7 @@ h3 {
 
 .services-header {
   margin: auto;
-  margin-bottom: 13px;
+  margin-bottom: 7px;
 }
 
 .services img {
@@ -833,6 +833,7 @@ h3 {
   margin: 0 auto;
   padding: 0;
   margin-top: 40px;
+  margin-bottom: 7px;
 }
 
 .list-info {
@@ -1231,7 +1232,7 @@ h3 {
   background: url(../img/sum-ico4.png) no-repeat center center;
 }
 
-.summer-cont-wrapper {
+.summer-wrapper .summer-cont-wrapper {
   width: 95%;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -1376,6 +1377,8 @@ h3 {
 
   .visa-first .visa-offer {
     max-width: 80%;
+    margin: auto;
+    font-size: 20px;
   }
 }
 
@@ -1940,6 +1943,10 @@ h3 {
   }
   .city-wrapper {
     width: 380px;
+    margin: 20px 0;
+  }
+  .city-head {
+    font-size: 25px;
   }
 /*-----------------------------------------------------*/
 
@@ -1948,13 +1955,32 @@ h3 {
   .visa-button {
     margin-bottom: 20px;
   }
+
   .visa-first {
     justify-content: space-around;
     background-image: url(../img/visa_bg1.jpg);
     height: 400px;
   }
+
   .visa-card {
-    width: 380px;
+    width: 95%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .visa-big-wrapper {
+    width: 98%;
+  }
+
+  .visa-title {
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .visa-desc {
+    width: 80%;
+    margin-bottom: 20px;
   }
 /*-----------------------------------------------------*/
 
@@ -1964,12 +1990,28 @@ h3 {
   .summer-button {
     margin-bottom: 20px;
   }
+
   .summer-first {
     justify-content: space-around;
     background-image: url(../img/summer-bg1.jpg);
     height: 400px;
   }
 
+  .summer-offer {
+    font-size: 30px;
+  }
+
+  .summer-wrapper {
+   width: 90%;
+  }
+
+  .summer-wrapper .summer-cont-wrapper {
+    width: 100%;
+  }
+
+  .summer-cont-head {
+    font-size: 20px;
+  }
 /*-----------------------------------------------------*/
 
   .english-first {
@@ -1988,7 +2030,27 @@ h3 {
     vertical-align: middle;
   }
 
+  .about-form-header {
+    text-align: center;
+  }
+
+  .info-prg {
+    font-size: 20px;
+  }
+
   .call-form-about {
     background-image: url(../img/about-bg3.jpg)
+  }
+
+  .english-offer {
+    font-size: 20px;
+  }
+
+  .english-wrapper {
+    width: 90%;
+  }
+
+  .english-list p {
+    width: 100%;
   }
 }
