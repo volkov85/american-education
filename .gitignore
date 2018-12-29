@@ -1,6 +1,7 @@
 .DS_Store
 .idea
 .vscode
+*.mp4
 *.ai
 *.log
 *.pdf
