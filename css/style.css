@@ -32,6 +32,28 @@ h3 {
   margin: 0;
 }
 
+.video {
+	position: absolute;
+	overflow: hidden;
+	object-fit: cover;
+	width: 100%;
+	margin: auto;
+	top: 0;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -163,6 +185,7 @@ h3 {
   position: absolute;
   top: 220px;
   left: 60%;
+  z-index: 10;
 }
 
 .offer-description {
@@ -190,6 +213,7 @@ h3 {
 
 .offer-button {
   background-color: #e72626;
+  align-self: flex-start;
 }
 
 .offer-button:hover {
@@ -1371,10 +1395,28 @@ h3 {
 
 
 @media only screen and (max-width: 1830px) {
-  .offer {
-    width: 80%;
-  }
-
+/*  .offer {
+    width: 60%;
+  }*/
+	.first-screen img {
+		display: none;
+	}
+	.offer {
+		width: 90%;
+		text-align: center;
+		margin: 0;
+		margin-bottom: 10%;
+		margin-top: 10%;
+	}
+	.offer-button {
+		margin: 0 auto;
+	}
+	.offer-description {
+		width: 90%;
+		text-align: center;
+		margin: 0;
+		margin-bottom: 10%;
+	}
   .visa-first .visa-offer {
     max-width: 80%;
     margin: auto;
@@ -1519,6 +1561,7 @@ h3 {
     height: 3px;
     background-color: white;
     transition: .5s all;
+    z-index: 100;
   }
 
   .second, .third{
@@ -1540,7 +1583,7 @@ h3 {
     font-size: 0;
     overflow: hidden;
     transition: .5s all;
-    z-index: 3;
+    z-index: 100;
     opacity: 0.9;
   }
 
@@ -1749,9 +1792,12 @@ h3 {
   .offer {
     text-align: center;
     margin: auto;
-    max-width: 290px;
+    width: 90%;
     font-size: 20px;
     letter-spacing: 2px;
+    margin: 0;
+    margin-top: 20%;
+    margin-bottom: 10%;
   }
   .first-screen {
     -ms-flex-pack: distribute;
@@ -1765,9 +1811,11 @@ h3 {
   .offer-description {
     text-align: center;
     margin: auto;
-    max-width: 230px;
+    width: 90%;
     margin-top: 0;
     font-size: 20px;
+    margin: 0;
+    margin-bottom: 10%;
   }
   .services {
     -webkit-box-align: center;
@@ -2052,5 +2100,9 @@ h3 {
 
   .english-list p {
     width: 100%;
+  }
+
+  .video {
+  	height: 400px;
   }
 }
