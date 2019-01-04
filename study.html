@@ -6,7 +6,7 @@
   <title>Обучение в США</title>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
@@ -57,39 +57,51 @@
       <div class="city-wrapper">
         <p class="city-head">Miami Beach</p>
         <img class="city-img" src="img/study_miami.jpg" width="370" height="304" alt="Miami">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-m" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">boston</p>
         <img class="city-img" src="img/study_boston.jpg" width="370" height="304" alt="boston">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-b" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">los angeles</p>
         <img class="city-img" src="img/study_los_angeles.jpg" width="370" height="304" alt="los angeles">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-l" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">santa barbara</p>
         <img class="city-img" src="img/study_santa_barbara.jpg" width="370" height="304" alt="santa barbara">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-s" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">New York</p>
         <img class="city-img" src="img/study_new_york.jpg" width="370" height="304" alt="New York">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-n" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">Orlando</p>
         <img class="city-img" src="img/study_orlando.jpg" width="370" height="304" alt="Orlando">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-o" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
         <p class="city-head">Washington</p>
         <img class="city-img" src="img/study_washington.jpg" width="370" height="304" alt="Washington">
-        <button class="button city-button" type="button">поступить</button>
+        <button class="button city-button city-button-w" type="button">поступить</button>
       </div>
     </div>
+    <form class="call-form-action about-call-form-action call-form-popup" action="https://echo.htmlacademy.ru" method="post">
+        <div class="call-form-action-wrapper about-form-wrapper call-form-popup-wrapper">
+          <input type="text" placeholder="Имя" class="call-form-action-name about-call-form-action-name" name="Username" required autocomplete="off">
+          <input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone about-call-form-action-phone" name="Userphone" required title="Формат xxx-xxxxxxx" autocomplete="off">
+          <textarea class="call-form-action-text about-call-form-action-text" name="theme" placeholder="Тема консультации" maxlength="150"></textarea>
+          <button class="button call-form-action-button" type="submit">
+            заказать звонок
+          </button>
+          <button class="popup-close" type="button">Закрыть</button>
+          <div class="g-recaptcha" data-sitekey="6LdBAncUAAAAAN7SlqqerFXIeCMZRA0DHiDe5RvD"></div>
+        </div>
+    </form>
   </section>
   <footer class="main-footer study-footer">
     <nav class="footer-navigation">

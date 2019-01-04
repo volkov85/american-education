@@ -55,3 +55,65 @@ function smoothScroll(eID) {
         leapY -= step; if (leapY < stopY) leapY = stopY; timer++;
     }
 }
+
+
+var link1 = document.querySelector(".city-button-m");
+var link2 = document.querySelector(".city-button-b");
+var link3 = document.querySelector(".city-button-l");
+var link4 = document.querySelector(".city-button-s");
+var link5 = document.querySelector(".city-button-n");
+var link6 = document.querySelector(".city-button-o");
+var link7 = document.querySelector(".city-button-w");
+var popup = document.querySelector(".call-form-popup");
+var close = popup.querySelector(".popup-close");
+var form = popup.querySelector("form");
+
+  link1.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link2.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link3.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link4.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link5.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link6.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+  link7.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.add("popup-show");
+  });
+
+
+  close.addEventListener("click", function (evt) {
+    evt.preventDefault();
+    popup.classList.remove("popup-show");
+  });
+
+  window.addEventListener("keydown", function (evt) {
+    if (evt.keyCode === 27) {
+      evt.preventDefault();
+      if (popup.classList.contains("popup-show")) {
+        popup.classList.remove("popup-show");
+      }
+    }
+  });
