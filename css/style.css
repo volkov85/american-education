@@ -1821,7 +1821,7 @@ h3 {
     font-size: 20px;
     letter-spacing: 2px;
     margin: 0;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 10%;
   }
   .first-screen {
@@ -1842,6 +1842,12 @@ h3 {
     margin: 0;
     margin-bottom: 10%;
   }
+
+  .overlay {
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
   .services {
     -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1878,6 +1884,8 @@ h3 {
     width: 235px;
     height: 57px;
     font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .advantages {
     background-image: url(../img/bg-3-tablet.jpg);
@@ -2134,7 +2142,7 @@ h3 {
   .about-first-img {
     width: 200px;
     top: 358px;
-    left: 35%;
+    left: 30%;
   }
   .about-first {
     height: 700px;
@@ -2144,6 +2152,7 @@ h3 {
     height: 400px;
     justify-content: flex-start;
     margin-top: 20%;
+    margin-bottom: 5%;
   }
   .about-quote {
     width: 90%;
