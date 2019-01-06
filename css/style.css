@@ -47,7 +47,7 @@ h3 {
 }
 
 .overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.1);
     position: absolute;
     top:0;
     left:0;
@@ -994,7 +994,7 @@ h3 {
   margin-left: -217px;
 }
 .call-form-popup .call-form-popup-wrapper {
-  opacity: 0.9;
+  opacity: 1;
 }
 .popup-show {
   display: block;
@@ -2247,3 +2247,57 @@ h3 {
 
 }
 
+/*------------Slider------------------------*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.slider { overflow: hidden; }
+.slider-image {
+  width: 20%;
+  float: left;
+  height: 700px;
+}
+.img-one {
+  background-image: url(../img/pedro-lastra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.img-two {
+  background-image: url(../img/about_bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.img-three {
+  background-image: url(../img/summer-bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.img-four {
+  background-image: url(../img/pedro-lastra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.img-five {
+  background-image: url(../img/about_bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+.slider-figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+/*------------------------------------------*/
