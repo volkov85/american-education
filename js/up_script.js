@@ -80,42 +80,42 @@ var textfield = document.querySelector(".about-call-form-action-text");
   link2.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Boston";
   });
 
   link3.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Los Angeles";
   });
 
   link4.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Santa Barbara";
   });
 
   link5.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в New York";
   });
 
   link6.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Orlando";
   });
 
   link7.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Washington";
   });
 
