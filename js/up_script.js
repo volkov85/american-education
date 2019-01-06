@@ -73,7 +73,7 @@ var textfield = document.querySelector(".about-call-form-action-text");
   link1.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    Username.focus();
+    // Username.focus();
     textfield.value="Хочу учиться в Miami Beach";
   });
 
