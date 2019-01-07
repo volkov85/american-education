@@ -57,13 +57,6 @@ function smoothScroll(eID) {
 }
 
 
-var link1 = document.querySelector(".city-button-m");
-var link2 = document.querySelector(".city-button-b");
-var link3 = document.querySelector(".city-button-l");
-var link4 = document.querySelector(".city-button-s");
-var link5 = document.querySelector(".city-button-n");
-var link6 = document.querySelector(".city-button-o");
-var link7 = document.querySelector(".city-button-w");
 var popup = document.querySelector(".call-form-popup");
 var Username = popup.querySelector("[name=Username]");
 var close = popup.querySelector(".popup-close");
@@ -75,84 +68,34 @@ var link22 = document.querySelector(".visa-button-gb");
 var link23 = document.querySelector(".visa-button-can");
 var link24 = document.querySelector(".visa-button-eu");
 
-  link1.addEventListener("click", function (evt) {
+
+  link21.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
     // Username.focus();
-    textfield.value="Хочу учиться в Miami Beach";
+    textfield.value="Консультация по визе в США";
   });
 
-  link2.addEventListener("click", function (evt) {
+  link22.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
     // Username.focus();
-    textfield.value="Хочу учиться в Boston";
+    textfield.value="Консультация по визе в Великобританию";
   });
 
-  link3.addEventListener("click", function (evt) {
+  link23.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
     // Username.focus();
-    textfield.value="Хочу учиться в Los Angeles";
+    textfield.value="Консультация по визе в Канаду";
   });
 
-  link4.addEventListener("click", function (evt) {
+  link24.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
     // Username.focus();
-    textfield.value="Хочу учиться в Santa Barbara";
+    textfield.value="Консультация по шенгенской визе";
   });
-
-  link5.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.add("popup-show");
-    // Username.focus();
-    textfield.value="Хочу учиться в New York";
-  });
-
-  link6.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.add("popup-show");
-    // Username.focus();
-    textfield.value="Хочу учиться в Orlando";
-  });
-
-  link7.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    popup.classList.add("popup-show");
-    // Username.focus();
-    textfield.value="Хочу учиться в Washington";
-  });
-
-
-
-  // link21.addEventListener("click", function (evt) {
-  //   evt.preventDefault();
-  //   popup.classList.add("popup-show");
-  //   // Username.focus();
-  //   textfield.value="Консультация по визе в США";
-  // });
-
-  // link22.addEventListener("click", function (evt) {
-  //   evt.preventDefault();
-  //   popup.classList.add("popup-show");
-  //   // Username.focus();
-  //   textfield.value="Консультация по визе в Великобританию";
-  // });
-
-  // link23.addEventListener("click", function (evt) {
-  //   evt.preventDefault();
-  //   popup.classList.add("popup-show");
-  //   // Username.focus();
-  //   textfield.value="Консультация по визе в Канаду";
-  // });
-
-  // link24.addEventListener("click", function (evt) {
-  //   evt.preventDefault();
-  //   popup.classList.add("popup-show");
-  //   // Username.focus();
-  //   textfield.value="Консультация по шенгенской визе";
-  // });
 
 
 

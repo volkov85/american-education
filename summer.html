@@ -6,7 +6,7 @@
   <title>Обучение в США</title>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/style.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
@@ -107,6 +107,18 @@
       </div>
       <p class="summer-last-info">*Сопровождает детей на весь период поездки - <a class="summer-ulan" href="about.html">Улан Ахметов</a></p>
     </div>
+    <form class="call-form-action about-call-form-action call-form-popup" action="https://echo.htmlacademy.ru" method="post">
+        <div class="call-form-action-wrapper about-form-wrapper call-form-popup-wrapper">
+          <input type="text" placeholder="Имя" class="call-form-action-name about-call-form-action-name" name="Username" required autocomplete="off">
+          <input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone about-call-form-action-phone" name="Userphone" required title="Формат xxx-xxxxxxx" autocomplete="off">
+          <textarea class="call-form-action-text about-call-form-action-text" name="theme" placeholder="Тема консультации" maxlength="150"></textarea>
+          <button class="button call-form-action-button" type="submit">
+            заказать звонок
+          </button>
+          <button class="popup-close" type="button">Закрыть</button>
+          <!-- <div class="g-recaptcha" data-sitekey="6LdBAncUAAAAAN7SlqqerFXIeCMZRA0DHiDe5RvD"></div> -->
+        </div>
+    </form>
   </section>
   <footer class="main-footer">
     <nav class="footer-navigation">
@@ -135,6 +147,6 @@
       2018/Все права защищены
     </p>
   </footer>
-  <script src="js/up_script.js"></script>
+  <script src="js/script_summer.js"></script>
 </body>
 </html>

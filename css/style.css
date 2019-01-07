@@ -992,6 +992,7 @@ h3 {
   top: 120px;
   left: 50%;
   margin-left: -217px;
+  z-index: 100;
 }
 .call-form-popup .call-form-popup-wrapper {
   opacity: 1;
@@ -1862,6 +1863,7 @@ h3 {
     top: 120px;
     left: 50%;
     margin-left: -217px;
+    z-index: 100;
   }
     .popup-show {
     display: block;
@@ -2256,6 +2258,7 @@ h3 {
     top: 120px;
     left: 50%;
     margin-left: -160px;
+    z-index: 100;
   }
 
   .popup-show {
