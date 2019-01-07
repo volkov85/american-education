@@ -881,8 +881,8 @@ h3 {
   padding: 25px;
   padding-left: 80px;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-  opacity: 0.671;
+  background-color: rgba(255, 255, 255, 0.7);
+/*  opacity: 0.671;*/
   box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
   width: 60%;
 }
