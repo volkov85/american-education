@@ -47,7 +47,7 @@ h3 {
 }
 
 .overlay {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.3);
     position: absolute;
     top:0;
     left:0;
@@ -1259,7 +1259,7 @@ h3 {
 .summer-offer {
   text-align: center;
   margin: auto;
-  width: 65%;
+  width: 90%;
   vertical-align: middle;
   color: #ffffff;
   text-transform: uppercase;
@@ -1445,7 +1445,7 @@ h3 {
 .english-offer {
   text-align: center;
   margin: auto;
-  width: 60%;
+  width: 65%;
   vertical-align: middle;
   color: #ffffff;
   text-transform: uppercase;
@@ -1496,10 +1496,12 @@ h3 {
 		margin: 0 auto;
 	}
 	.offer-description {
-		width: 90%;
-		text-align: center;
+		width: 50%;
+		text-align: left;
 		margin: 0;
 		margin-bottom: 10%;
+    align-self: start;
+    margin-left: 10%;
 	}
   .visa-first .visa-offer {
     max-width: 80%;
@@ -1834,6 +1836,7 @@ h3 {
 /*-----------------------------------------------------*/
   .english-offer {
     font-size: 30px;
+    width: 90%;
   }
 
 
@@ -1925,7 +1928,7 @@ h3 {
     width: 90%;
     margin-top: 0;
     font-size: 20px;
-    margin: 0;
+/*    margin: 0;*/
     margin-bottom: 10%;
   }
 
