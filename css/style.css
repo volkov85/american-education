@@ -2328,6 +2328,7 @@ h3 {
 
 .tv {
     overflow: hidden;
+    height: 700px;
 }
 .tv, .tv::before {
     top: 0;
