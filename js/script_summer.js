@@ -70,7 +70,7 @@ var link21 = document.querySelector(".summer-button");
     evt.preventDefault();
     popup.classList.add("popup-show");
     // Username.focus();
-    textfield.value="Консультация летнему лагерю для детей";
+    textfield.value="Консультация по летнему лагерю для детей";
   });
 
 
