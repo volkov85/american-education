@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="simplebox/simplebox.css">
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
@@ -56,7 +57,10 @@
       <h2 class="visually-hidden">Города, в которых находятся наши ВУЗы-партнеры</h2>
       <div class="city-wrapper">
         <p class="city-head">Miami Beach</p>
-        <img class="city-img" src="img/study_miami.jpg" width="370" height="304" alt="Miami">
+<!--         <img class="city-img" src="img/study_miami.jpg" width="370" height="304" alt="Miami"> -->
+        <a class="city-img-outerbox" rel="simplebox" href="img/study_miami_full.jpg">
+          <img class="city-img-box" src="img/study_miami.jpg" width="370" height="304">
+        </a>
         <button class="button city-button city-button-m" type="button">поступить</button>
       </div>
       <div class="city-wrapper">
@@ -131,5 +135,22 @@
     </p>
   </footer>
   <script src="js/up_script.js"></script>
+  <script src="simplebox/simplebox_util.js"></script>
+  <script src="simplebox/simplebox.js"></script>
+  <script type="text/javascript">
+    (function(){
+    var boxes=[],els,i,l;
+    if(document.querySelectorAll){
+    els=document.querySelectorAll('a[rel=simplebox]');  
+    Box.getStyles('simplebox_css','simplebox/simplebox.css');
+    Box.getScripts('simplebox_js','simplebox/simplebox.js',function(){
+    simplebox.init();
+    for(i=0,l=els.length;i<l;++i)
+    simplebox.start(els[i]);
+    simplebox.start('a[rel=simplebox_group]');      
+    });
+    }
+    })();
+  </script>
 </body>
 </html>
