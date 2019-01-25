@@ -1,0 +1,2436 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-weight: 400;
+  color: #434343;
+  min-width: 1230px;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[href^="tel"]{
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.video {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  top: 0;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #0a3788;
+  background-image: url(../img/stars.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+}
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  position: relative;
+}
+
+.site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.site-navigation li a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 14px;
+  white-space: nowrap;
+  letter-spacing: 0.56px;
+  cursor: pointer;
+}
+
+.site-navigation li a:hover {
+  text-decoration: underline;
+}
+
+.main-header-contacts {
+  width: 118px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: right;
+}
+
+.main-header-burger {
+  display: none;
+}
+
+.wrapper {
+  display: none;
+}
+
+.main-header-burger-menu {
+  display: none;
+}
+
+.first-screen {
+  background-image: url(../img/pedro-lastra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #3e778b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  position: relative;
+  height: 700px;
+}
+
+.about-quote {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  margin-left: 20%;
+  margin-top: 150px;
+}
+
+.quote-sign {
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 55px;
+  margin-bottom: 250px;
+}
+
+.offer {
+  margin: 0;
+  margin-left: 20%;
+  margin-right: 27%;
+  margin-top: 195px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.first-screen-img {
+  position: absolute;
+  top: 220px;
+  left: 60%;
+  z-index: 10;
+}
+
+.offer-description {
+  color: #ffffff;
+  margin-left: 20%;
+  margin-right: 50%;
+  font-size: 30px;
+  margin-top: 37px;
+  margin-bottom: 39px;
+}
+
+.button {
+  margin-left: 20%;
+  width: 300px;
+  height: 68px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #eeeeee;
+  padding: 0;
+  cursor: pointer;
+}
+
+.offer-button {
+  background-color: #e72626;
+  align-self: flex-start;
+}
+
+.offer-button:hover {
+  background-color: #cd0303;
+}
+
+.offer-button:active {
+  background-color: #a50101;
+  color:#8e8e8e;
+}
+
+.services {
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #f8f7f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+  padding-top: 53px;
+  padding-bottom: 72px;
+}
+
+.services-header {
+  margin: auto;
+  margin-bottom: 7px;
+}
+
+.services img {
+  margin: auto;
+  margin-bottom: 33px;
+}
+
+.services-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.services-item {
+  width: 310px;
+  height: 260px;
+  -webkit-box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+      box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.services-item:last-child {
+  margin-right: 0;
+}
+
+.services-item-desription {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.services-item:last-child .services-item-desription {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.services-item-header {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #0a3788;
+}
+
+.services-item-button {
+  width: 103px;
+  height: 26px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3461b0;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.services-item-button:hover {
+  background-color: #274884;
+}
+
+.services-item-button:active {
+  background-color: #1c325a;
+  color:#8e8e8e;
+}
+
+.advantages {
+  background-image: url(../img/bg-3.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #5f6a6e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 55px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.advantages-header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 13px;
+  color: #ebebeb;
+  margin-left: 45%;
+  text-align: center;
+  margin-right: 20%;
+}
+
+.advantages-line {
+  margin: 0;
+  margin-bottom: 29px;
+  margin-left: 45%;
+  margin-right: 20%;
+  -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.advantages-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: left;
+    -ms-flex-pack: left;
+      justify-content: left;
+  margin-left: 45%;
+  text-align: center;
+}
+
+
+.advantages-item-description {
+  color: #e3e3e3;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  margin: 0;
+  width: 236px;
+  padding-top: 15px;
+}
+
+
+.advantages-students {
+  position: absolute;
+  left: 19%;
+  top: -20px;
+}
+
+.advantages-item:nth-child(2) {
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advantages-item:nth-child(3) {
+  padding-top: 80px;
+}
+
+.english-lessons {
+  background-image: url(../img/bg-4.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #fdfdfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 33px;
+  padding-bottom: 8px;
+  position: relative;
+}
+
+.english-lessons-header {
+  margin: auto;
+  margin-bottom: 13px;
+}
+
+.english-lessons-line {
+  margin: auto;
+  margin-bottom: 46px;
+}
+
+.english-lessons-description {
+  color: #434343;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 20%;
+  margin-bottom: 28px;
+  width: 533px;
+}
+
+.english-lessons-skills-header {
+  color: #434343;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: 20%;
+  margin-bottom: 15px;
+  width: 680px;
+}
+
+.english-lessons-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 20%;
+}
+
+.english-lessons-skills-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.english-lessons-skills-icon {
+  margin-right: 15px;
+  width: 22px;
+  height: 21px;
+}
+
+.english-lessons-item-description {
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+.english-lessons-button {
+  margin: auto;
+  margin-bottom: 33px;
+  width: 354px;
+  height: 56px;
+  border-radius: 5px;
+  border: 2px solid #0a3788;
+  color: #0a3788;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  outline: none;
+  background-color: transparent;
+  margin-top: 20px;
+  }
+
+.english-lessons-button:hover {
+  border-color: #072252;
+}
+
+.english-lessons-button:active {
+  border-color: #031027;
+  color:#041533;
+}
+
+.businesswoman {
+  position: absolute;
+  left: 68%;
+  top: 15.2%;
+}
+
+.call-form {
+  background-image: url(../img/bg-5.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #1d438a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 33px;
+  padding-bottom: 77px;
+  position: relative;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+}
+
+.call-form-header {
+  margin: auto;
+  margin-bottom: 13px;
+  color: #ebebeb;
+}
+
+.call-form-line {
+  margin: auto;
+  margin-bottom: 46px;
+}
+
+.call-form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+      flex-direction: row;
+}
+
+.call-form-advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  list-style: none;
+  max-width: 590px;
+  margin-right: 65px;
+}
+
+.call-form-advantages-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+}
+
+.call-form-advantages-item:first-child {
+  margin-bottom: 75px;
+}
+
+.call-form-advantages-item-description {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ebebeb;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.call-form-action {
+  width: 434px;
+  border-radius: 5px;
+  background-color: rgba(9, 45, 110, 0.51);
+}
+
+.call-form-action-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  padding: 0;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+}
+
+.call-form-action-name {
+  width: 310px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin: 40px;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.call-form-action-phone {
+  width: 310px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin: 40px;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+.call-form-action-text {
+  width: 310px;
+  border-radius: 5px;
+  background-color: #e8e8e8;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin: 40px;
+  margin-bottom: 0;
+  padding: 20px;
+  resize: none;
+}
+
+.call-form-action-button {
+  width: 354px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: #e72626;
+  color: #eeeeee;
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.9px;
+  margin: 40px;
+}
+
+.g-recaptcha {
+  margin-bottom: 30px;
+}
+
+.call-form-action-button:hover {
+  background-color: #cd0303;
+}
+
+.call-form-action-button:active {
+  background-color: #a50101;
+  color:#8e8e8e;
+}
+
+.contacts {
+  background-image: url(../img/bg-6.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #cd3737;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  padding-bottom: 22px;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.contacts-header {
+  margin:0;
+  color: #ebebeb;
+  margin-right: 15%;
+}
+
+.contacts-address {
+  width: 254px;
+  color: #efefef;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.08px;
+  margin: 0;
+  text-align: center;
+}
+
+.main-footer {
+  background-color: #0a3788;
+  background-image: url(../img/stars.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+      flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header-phone {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer-phone-icon{
+  margin: 0;
+  padding-right: 8px;
+}
+
+.main-footer-phone-number {
+  margin: 0;
+}
+
+.main-footer-copyright {
+  color: #cfcfcf;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  -webkit-box-align: center;
+    -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+    -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.site-navigation-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.site-navigation-footer li a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 14px;
+  white-space: nowrap;
+  letter-spacing: 0.56px;
+  cursor: pointer;
+}
+
+.site-navigation-footer li a:hover {
+  text-decoration: underline;
+}
+
+.main-footer-logo {
+  margin: 0;
+}
+
+.main-footer-icon {
+  display: none;
+}
+
+/*Код страницы О компании */
+.about-info {
+  background-image: url(../img/about-bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.call-form-about {
+  background-image: url(../img/about-bg3.jpg);
+  background-color: #f8f8f8;
+}
+
+.big-wrapper .about-first {
+  background-image: url(../img/about_bg1.jpg);
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-first-img {
+  position: absolute;
+  left: 60%;
+  z-index: 10;
+  top: 170px;
+}
+
+.about-info-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 7px;
+}
+
+.list-info {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 70px;
+  padding: 25px;
+  padding-left: 80px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
+  width: 60%;
+}
+
+.list-info li {
+  padding: 0;
+  opacity: 1;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+}
+
+.about-info img {
+  margin: auto;
+  margin-bottom: 33px;
+}
+
+.info-prg {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.info-prg::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  background: url(../img/check-icon.png) no-repeat center center;
+  left: -40px;
+  top: 8px;
+}
+
+.about-form-header {
+  font-size: 30px;
+  color: #434343;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.about-form-desc {
+  color: #434343;
+}
+
+.about-call-form-action {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.about-call-form-action-name {
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.about-call-form-action-phone {
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.about-call-form-action-text {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(8, 42, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.call-form-action .about-form-wrapper {
+  border-width: 2px;
+  border-color: rgb(8, 42, 103);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+/*  opacity: 0.671;*/
+  box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
+}
+/*--------------------------------------*/
+
+
+
+/*Стили для страницы Обучение*/
+.study-first-screen {
+  background-image: url(../img/study_bg1.jpg);
+  height: 500px;
+}
+
+.study-offer {
+  text-align: center;
+  margin: auto;
+  width: 890px;
+  vertical-align: middle;
+}
+
+.study-cities {
+  background-image: url(../img/study_bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  position: relative;
+}
+/*-------------------------------------------*/
+
+
+
+
+/*------------------Popup--------------------*/
+.call-form-popup {
+  position: fixed;
+  display: none;
+  top: 120px;
+  left: 50%;
+  margin-left: -217px;
+  z-index: 100;
+}
+
+.call-form-popup .call-form-popup-wrapper {
+  opacity: 1;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.popup-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.popup-close::before,
+.popup-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 19px;
+  height: 3px;
+  background-color: #000;
+}
+
+.popup-close::before {
+  transform: rotate(45deg);
+}
+
+.popup-close::after {
+  transform: rotate(-45deg);
+}
+/*-------------------------------------------*/
+
+
+.study-big-wrapper {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.city-wrapper {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 2px #e4e4e4;
+  width: 430px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 55px 0;
+}
+
+.city-head {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  background-color: #0b3e9b;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.city-img {
+  margin: 20px 0;
+  box-shadow: 0 2px 2px #e4e4e4;
+  max-width: 90%;
+}
+
+.city-button {
+  margin: 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #d33d3d;
+  box-shadow: 0 4px 0 #ab3131;
+  width: 164px;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  height: 45px;
+}
+
+.city-button:hover, 
+.city-button:focus {
+  background-color: #d24c4c;
+}
+
+.city-button:active {
+  background-color: #c13939;
+  box-shadow: 0 4px 0 #d33d3d;
+}
+
+.study-footer {
+  position: relative;
+}
+/*--------------------------------------*/
+
+
+
+
+
+
+/*Стили для страницы Визы*/
+.visa-first {
+  background-image: url(../img/visa_bg1.jpg);
+  height: 500px;
+}
+
+.visa-offer {
+  text-align: center;
+  margin: auto;
+  width: 890px;
+  vertical-align: middle;
+}
+
+.visa-list {
+  background-image: url(../img/visa_bg2.png);
+}
+
+.visa-big-wrapper {
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+}
+
+.visa-card {
+  width: 500px;
+  height: 450px;
+  box-shadow: 1px 3px 5px rgba(76, 98, 104, 0.3);
+  border-radius: 5px;
+  background-image: url(../img/flag_usa.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.card-brit {
+  background-image: url(../img/flag_brit.png);
+}
+
+.card-canada {
+  background-image: url(../img/flag_can.png);
+}
+
+.card-shengen {
+  background-image: url(../img/flag_shen.png);
+}
+
+.visa-title {
+  width: 100%;
+  color: #0a3788;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+
+.visa-desc {
+  width: 352px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+}
+
+.visa-button {
+  width: 180px;
+  height: 34px;
+  border-radius: 5px;
+  background-color: #0a3788;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+.visa-button:hover, 
+.visa-button:focus {
+  background-color: #0d46ad;
+}
+
+.visa-button:active {
+  background-color: #1559d4;
+}
+/*-------------------------------------------*/
+
+
+
+
+/*Стили для страницы Летние программы*/
+.summer-first {
+  background-image: url(../img/summer-bg1.jpg);
+  height: 740px;
+}
+
+.summer-offer {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  vertical-align: middle;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.summer-desc {
+  background-image: url(../img/summer_bg2.jpg);
+}
+
+.summer-wrapper {
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 66%;
+}
+
+.summer-title {
+  margin: auto;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+.summer-list {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 160px;
+  margin-bottom: 40px;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.summer-list span {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+}
+
+.summer-list p {
+  width: 191px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.summer-item {
+  position: relative;
+}
+
+.summer-item::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 105px;
+  background: url(../img/sum-ico1.png) no-repeat center center;
+  top: -120px;
+  left: 50%;
+  margin-left: -65px;
+  z-index: 10;
+}
+
+.summer-item:nth-child(2)::before {
+  background: url(../img/sum-ico2.png) no-repeat center center;
+}
+
+.summer-item:nth-child(3)::before {
+  background: url(../img/sum-ico3.png) no-repeat center center;
+}
+
+.summer-item:nth-child(4)::before {
+  background: url(../img/sum-ico4.png) no-repeat center center;
+}
+
+.summer-wrapper .summer-cont-wrapper {
+  width: 95%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.summer-cont-head {
+  width: 100%;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.summer-info-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.summer-info {
+  width: 40%;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 40px;
+  padding-left: 40px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.summer-info li {
+  padding: 0;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+}
+
+.summer-prg {
+  color: #434343;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.summer-prg::before {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 21px;
+  background: url(../img/check-icon.png) no-repeat center center;
+  left: -40px;
+  top: 8px;
+}
+
+.summer-button {
+  width: 210px;
+  height: 40px;
+  box-shadow: 0 3px 0 #be2424;
+  background-color: #e72626;
+  margin-bottom: 40px;
+}
+
+.summer-last-info {
+  margin: 0;
+  width: 95%;
+  color: #434343;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.summer-ulan {
+  color: #0939a7;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/*-------------------------------------------*/
+
+
+
+
+/*Стили для страницы Курс английского*/
+.english-first {
+  background-image: url(../img/english-bg1.jpg);
+  height: 500px;
+}
+
+.english-offer {
+  text-align: center;
+  margin: auto;
+  width: 65%;
+  vertical-align: middle;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.english-list p {
+  width: 350px;
+}
+
+.english-item:nth-child(1)::before {
+  height: 115px;
+  background: url(../img/eng-ico1.png) no-repeat center center;
+}
+
+.english-item:nth-child(2)::before {
+  height: 115px;
+  background: url(../img/eng-ico2.png) no-repeat center center;
+}
+/*---------------------------------------------------------------*/
+
+
+
+
+@media only screen and (max-width: 1830px) {
+  .offer {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .offer-button {
+    margin: 0 auto;
+  }
+
+  .offer-description {
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10%;
+    align-self: start;
+    margin-left: 10%;
+  }
+
+  .visa-first .visa-offer {
+    max-width: 80%;
+    margin: auto;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .advantages-students {
+    width: 375px;
+    height: 327px;
+    top: 80px;
+  }
+
+  .summer-list {
+    margin-top: 40px;
+  }
+
+  .summer-item {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .advantages-header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .advantages-line {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .advantages-list {
+    margin-left: 0;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+        justify-content: center;
+  }
+
+  .advantages-item-description {
+    width: 140px;
+  }
+
+  .advantages-students {
+    display: none;
+  }
+
+  .advantages-item:nth-child(2) {
+    padding-top: 0;
+  }
+
+  .advantages-item:nth-child(3) {
+    padding-top: 0;
+    margin-top: 17px;
+  }
+
+  .summer-info {
+    width: 80%;
+  }
+
+  .summer-list {
+    margin-top: 40px;
+  }
+
+  .summer-item {
+    margin-top: 150px;
+  }
+
+  .summer-info {
+    margin-bottom: 0;
+  }
+
+  .summer-info:last-child {
+    padding-top: 0;
+  }
+
+/*-----------Страница Онас--------------*/
+  .about-first-img {
+    width: 250px;
+    top: 273px;
+  }
+/*--------------------------------------*/
+}
+
+@media only screen and (max-width: 1400px) {
+  .businesswoman {
+    display: none;
+  }
+
+  .summer-list {
+    margin-top: 40px;
+  }
+
+  .summer-item {
+    margin-top: 150px;
+  }
+
+  .summer-info {
+    margin-bottom: 0;
+  }
+
+  .summer-info:last-child {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    min-width: 768px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .main-navigation {
+    -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+        justify-content: space-around;
+  }
+
+  .site-navigation {
+    display: none;
+  }
+
+  .main-header-contacts {
+    text-align: center;
+  }
+
+  /*Бургер меню*/
+  .main-navigation .wrapper{
+    display: block;
+    margin: 0;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    height: 40px;
+  }
+
+  #check-menu{
+    display: none;
+  }
+
+  .wrapper label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1000;
+    line-height: 40px;
+  }
+
+  .wrapper a {
+    cursor: pointer;
+  }
+
+  .burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 40px;
+    height: 3px;
+    background-color: white;
+    transition: .5s all;
+    z-index: 1000;
+  }
+
+  .second, .third{
+    top: 18px;
+  }
+
+  .fourth{
+    top: 28px;
+  }
+
+  .main-menu{
+    display: block;
+    position: absolute;
+    width: 320px;
+    bottom: 0;
+    left: -414%;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+    z-index: 100;
+  }
+
+  .main-menu a{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    color: black;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,.3);
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .main-menu a:hover{
+    background-color: rgba(255,255,255,.9);
+  }
+
+  #check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 16px;
+  }
+
+  #check-menu:checked ~ .first{
+    display: none;
+  }
+
+  #check-menu:checked ~ .second{
+    transform: rotate(45deg);
+  }
+
+  #check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+  }
+
+  #check-menu:checked ~ .fourth{
+    display: none;
+  }
+  /*Конец бургер меню*/
+
+
+  .offer {
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    max-width: 560px;
+  }
+
+  .first-screen-img {
+    display: none;
+  }
+
+  .offer-description {
+    text-align: center;
+    margin: auto;
+    max-width: 460px;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  .services {
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+        align-items: center;
+  }
+
+  .services-list {
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+        align-items: center;
+    max-width: 700px;
+    -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
+  .services-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .english-lessons-header  {
+    width: 530px;
+    text-align: center;
+  }
+
+  .english-lessons-description {
+    margin-left: 10%;
+  }
+
+  .english-lessons-skills-header {
+    margin-left: 10%;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+        justify-content: center;
+  }
+
+  .english-lessons-skills {
+    margin-left: 10%;
+  }
+
+  .english-lessons-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .call-form {
+    padding-bottom: 25px;
+  }
+
+  .call-form-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+        flex-direction: column;
+  }
+
+  .call-form-action {
+    -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+        order: -1;
+    margin: auto;
+  }
+
+  .call-form-action-button {
+    margin: 40px;
+  }
+
+  .call-form-advantages {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .call-form-advantages-item:first-child {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .call-form-advantages-item-description {
+    text-align: center;
+  }
+
+  .footer-navigation {
+    -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+        justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .site-navigation-footer {
+    display: none;
+  }
+
+  .main-footer-icon {
+    display: block;
+  }
+/*----------------------Страница Обучение------------*/
+  .city-button {
+    margin-bottom: 20px;
+  }
+/*---------------------------------------------------*/
+
+
+  /*----------------------Страница Визы------------*/
+  .visa-button {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+/*-----------------------------------------------------*/
+  .english-offer {
+    font-size: 30px;
+    width: 90%;
+  }
+
+
+/*-----------Страница Онас--------------*/
+  .about-first-img {
+    width: 250px;
+    top: 273px;
+  }
+  .about-quote, 
+  .quote-sign {
+    font-size: 30px;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+  .about-quote {
+    margin-top: 10%;
+  }
+/*--------------------------------------*/
+
+  /*------------------Popup--------------------*/
+  .call-form-popup {
+    position: fixed;
+    display: none;
+    top: 120px;
+    left: 50%;
+    margin-left: -217px;
+    z-index: 100;
+  }
+    .popup-show {
+    display: block;
+  }
+/*-------------------------------------------*/
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    min-width: 320px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .main-header {
+    background-image: url(../img/bg-header-tablet.png);
+  }
+
+  .main-navigation {
+    -ms-flex-pack: distribute;
+      justify-content: space-around;
+  }
+
+  .site-navigation {
+    display: none;
+  }
+
+  .main-header-contacts {
+    text-align: center;
+  }
+
+  .main-header-burger {
+    display: block;
+  }
+
+  .offer {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .first-screen {
+    -ms-flex-pack: distribute;
+      justify-content: space-around;
+    background-image: url(../img/bg-1-tablet.jpg);
+    height: 400px
+  }
+
+  .first-screen-img {
+    display: none;
+  }
+
+  .offer-description {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10%;
+  }
+
+  .overlay {
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .services {
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+        align-items: center;
+  }
+
+  .services-header {
+    width: 180px;
+    text-align: center;
+  }
+
+  .services-list {
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+      -ms-flex-align: center;
+        align-items: center;
+    max-width: 320px;
+    -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
+  .services-item {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .services-item:last-child {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .button {
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .offer-button {
+    width: 235px;
+    height: 57px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .advantages {
+    background-image: url(../img/bg-3-tablet.jpg);
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .advantages-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+        flex-direction: row;
+    -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  }
+
+  .advantages-item-description {
+    width: 135px;
+    margin: 0 auto;
+  }
+
+  .advantages-item:nth-child(2) {
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .advantages-item:nth-child(3) {
+    margin-top: 17px;
+    margin-right: 5%;
+  }
+
+  .advantages-item:first-child {
+    padding: 0;
+    margin-left: 5%;
+  }
+
+  .english-lessons {
+    background-image: none;
+  }
+
+  .english-lessons-header {
+    width: 275px;
+    text-align: center;
+  }
+
+  .english-lessons-description {
+    margin-left: 10%;
+    width: 275px;
+    font-size: 12px;
+  }
+
+  .english-lessons-skills-header {
+    margin-left: 10%;
+    -webkit-box-pack: center;
+      -ms-flex-pack: center;
+        justify-content: center;
+    font-size: 12px;
+    width: 272px;
+  }
+
+  .english-lessons-skills {
+    margin-left: 10%;
+    line-height: 20px;
+  }
+
+  .english-lessons-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 280px;
+    height: 44px;
+    font-size: 15px;
+    letter-spacing: 1.91px;
+  }
+
+  .call-form {
+    padding-bottom: 25px;
+    background-image: url(../img/bg-5-tablet.png);
+  }
+
+  .call-form-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+        flex-direction: column;
+  }
+
+  .call-form-action {
+    -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+        order: -1;
+    margin: auto;
+    width: 320px;
+  }
+
+  .call-form-action-name {
+    width: 262px;
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .call-form-action-phone {
+    width: 262px;
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .call-form-action-text {
+    width: 262px;
+    font-size: 13px;
+    padding: 15px;
+  }
+
+  .call-form-action-button {
+    margin: 30px;
+    width: 262px;
+    height: 42px;
+    font-size: 14px;
+  }
+
+  .call-form-advantages {
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .call-form-advantages-item:first-child {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .call-form-advantages-item-description {
+    text-align: center;
+    font-size: 12px;
+    width: 275px;
+  }
+
+  .contacts-header {
+    display: none;
+  }
+
+  .footer-navigation {
+    -ms-flex-pack: distribute;
+      justify-content: space-around;
+  }
+
+  .site-navigation-footer {
+    display: none;
+  }
+
+  .main-footer-icon {
+    display: block;
+  }
+
+
+  /*----------------------Страница Обучение------------*/
+  .city-button {
+    margin-bottom: 20px;
+  }
+
+  .study-first-screen {
+    justify-content: space-around;
+    background-image: url(../img/study_bg1.jpg);
+    height: 400px;
+  }
+
+  .city-wrapper {
+    width: 380px;
+    margin: 20px 0;
+  }
+
+  .city-head {
+    font-size: 25px;
+  }
+/*-----------------------------------------------------*/
+
+
+  /*----------------------Страница Визы------------*/
+  .visa-button {
+    margin-bottom: 20px;
+  }
+
+  .visa-first {
+    justify-content: space-around;
+    background-image: url(../img/visa_bg1.jpg);
+    height: 400px;
+  }
+
+  .visa-card {
+    width: 95%;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .visa-big-wrapper {
+    width: 98%;
+  }
+
+  .visa-title {
+    width: 80%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .visa-desc {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+/*-----------------------------------------------------*/
+
+
+
+  /*----------------------Страница Лагерь------------*/
+  .summer-button {
+    margin-bottom: 20px;
+  }
+
+  .summer-first {
+    justify-content: space-around;
+    background-image: url(../img/summer-bg1.jpg);
+    height: 400px;
+  }
+
+  .summer-offer {
+    font-size: 30px;
+  }
+
+  .summer-wrapper {
+   width: 90%;
+  }
+
+  .summer-wrapper .summer-cont-wrapper {
+    width: 100%;
+  }
+
+  .summer-cont-head {
+    font-size: 20px;
+  }
+/*-----------------------------------------------------*/
+
+  .english-first {
+    justify-content: space-around;
+    background-image: url(../img/english-bg1.jpg);
+    height: 400px;
+  }
+
+  .about-quote, 
+  .quote-sign {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 400;
+    vertical-align: middle;
+  }
+
+  .about-form-header {
+    text-align: center;
+  }
+
+  .info-prg {
+    font-size: 20px;
+  }
+
+  .call-form-about {
+    background-image: url(../img/about-bg3.jpg)
+  }
+
+  .english-offer {
+    font-size: 20px;
+  }
+
+  .english-wrapper {
+    width: 90%;
+  }
+
+  .english-list p {
+    width: 100%;
+  }
+
+  .video {
+  	height: 400px;
+  }
+
+  /*---------Страница О нас---------------*/
+  .about-first-img {
+    width: 200px;
+    top: 358px;
+    left: 30%;
+  }
+
+  .about-first {
+    height: 700px;
+    justify-content: flex-start;
+  }
+
+  .quote-wrapper {
+    height: 400px;
+    justify-content: flex-start;
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+
+  .about-quote {
+    width: 90%;
+    text-align: center;
+  }
+
+  .quote-sign {
+    width: 90%;
+  }
+  /*--------------------------------------------*/
+
+
+  /*------------------Popup--------------------*/
+  .call-form-popup {
+    position: fixed;
+    display: none;
+    top: 120px;
+    left: 50%;
+    margin-left: -160px;
+    z-index: 100;
+  }
+
+  .popup-show {
+    display: block;
+  }
+/*-------------------------------------------*/
+
+}
+
+/*------------Slider------------------------*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.slider { overflow: hidden; }
+.slider-image {
+  width: 20%;
+  float: left;
+  height: 700px;
+}
+
+.img-one {
+  background-image: url(../img/pedro-lastra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.img-two {
+  background-image: url(../img/about_bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.img-three {
+  background-image: url(../img/summer-bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.img-four {
+  background-image: url(../img/pedro-lastra.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.img-five {
+  background-image: url(../img/about_bg1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.slider-figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 25s slidy infinite; 
+}
+/*------------------------------------------*/
+
+
+.tv {
+    overflow: hidden;
+    height: 700px;
+}
+
+.tv, .tv .screen {
+    position: absolute;
+    z-index: 1;
+}
+
+.tv::before {
+    content: "";
+    position: absolute;
+    z-index: 11;
+}
+
+.tv, .tv::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tv .screen.active, .work-box:hover .overlay {
+    opacity: 1;
+}
+.tv .screen {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin: auto;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.city-img-box {
+  max-width: 100%;
+  box-shadow: 0 2px 2px #e4e4e4;
+}
+
+.city-img-outerbox {
+  max-width: 90%;
+  margin: 20px 0;
+}

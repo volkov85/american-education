@@ -13,31 +13,26 @@ var link24 = document.querySelector(".visa-button-eu");
   link21.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    // Username.focus();
     textfield.value="Консультация по визе в США";
   });
 
   link22.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    // Username.focus();
     textfield.value="Консультация по визе в Великобританию";
   });
 
   link23.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    // Username.focus();
     textfield.value="Консультация по визе в Канаду";
   });
 
   link24.addEventListener("click", function (evt) {
     evt.preventDefault();
     popup.classList.add("popup-show");
-    // Username.focus();
     textfield.value="Консультация по шенгенской визе";
   });
-
 
 
   close.addEventListener("click", function (evt) {
