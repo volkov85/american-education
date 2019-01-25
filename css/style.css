@@ -38,12 +38,12 @@ h3 {
 }
 
 .video {
-	position: absolute;
-	overflow: hidden;
-	object-fit: cover;
-	width: 100%;
-	margin: auto;
-	top: 0;
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  top: 0;
 }
 
 .overlay {
@@ -214,6 +214,7 @@ h3 {
   letter-spacing: 2px;
   color: #eeeeee;
   padding: 0;
+  cursor: pointer;
 }
 
 .offer-button {
@@ -321,6 +322,7 @@ h3 {
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .services-item-button:hover {
@@ -882,7 +884,6 @@ h3 {
   padding-left: 80px;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.7);
-/*  opacity: 0.671;*/
   box-shadow: 1.268px 2.719px 5px 0px rgba(76, 98, 104, 0.3);
   width: 60%;
 }
@@ -983,6 +984,9 @@ h3 {
   background-color: #ffffff;
   position: relative;
 }
+/*-------------------------------------------*/
+
+
 
 
 /*------------------Popup--------------------*/
@@ -994,58 +998,54 @@ h3 {
   margin-left: -217px;
   z-index: 100;
 }
+
 .call-form-popup .call-form-popup-wrapper {
   opacity: 1;
 }
+
 @keyframes bounce {
   0% {
     transform: translateY(-2000px);
   }
-
   70% {
     transform: translateY(30px);
   }
-
   90% {
     transform: translateY(-10px);
   }
-
   100% {
     transform: translateY(0);
   }
 }
+
 .popup-show {
   display: block;
   animation: bounce 0.6s;
 }
+
 .popup-close {
   position: absolute;
   top: 10px;
   right: 10px;
-
   width: 22px;
   height: 22px;
-
   font-size: 0;
-
   background-color: transparent;
   border: 0;
-
   cursor: pointer;
 }
+
 .popup-close::before,
 .popup-close::after {
   content: "";
-
   position: absolute;
   top: 10px;
   left: 2px;
-
   width: 19px;
   height: 3px;
-
   background-color: #000;
 }
+
 .popup-close::before {
   transform: rotate(45deg);
 }
@@ -1126,18 +1126,6 @@ h3 {
 .study-footer {
   position: relative;
 }
-
-/*.study-footer::before {
-  content: "";
-  position: absolute;
-  width: 38px;
-  height: 35px;
-  top: -35px;
-  left: 78%;
-  background-image: url(../img/study_up_icon.png);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}*/
 /*--------------------------------------*/
 
 
@@ -1245,7 +1233,7 @@ h3 {
 .visa-button:active {
   background-color: #1559d4;
 }
-/*--------------------------------------*/
+/*-------------------------------------------*/
 
 
 
@@ -1423,15 +1411,7 @@ h3 {
   font-weight: 700;
   text-decoration: underline;
 }
-/*--------------------------------------*/
-
-
-
-
-
-
-
-
+/*-------------------------------------------*/
 
 
 
@@ -1465,44 +1445,32 @@ h3 {
   height: 115px;
   background: url(../img/eng-ico2.png) no-repeat center center;
 }
-/*--------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
+/*---------------------------------------------------------------*/
 
 
 
 
 @media only screen and (max-width: 1830px) {
-/*  .offer {
-    width: 60%;
-  }*/
-	.offer {
-		width: 90%;
-		text-align: center;
-/*		margin: 0;*/
-		margin-bottom: 10%;
-		margin-top: 10%;
-	}
-	.offer-button {
-		margin: 0 auto;
-	}
-	.offer-description {
-		width: 50%;
-		text-align: left;
-		margin: 0;
-		margin-bottom: 10%;
+  .offer {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+
+  .offer-button {
+    margin: 0 auto;
+  }
+
+  .offer-description {
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 10%;
     align-self: start;
     margin-left: 10%;
-	}
+  }
+
   .visa-first .visa-offer {
     max-width: 80%;
     margin: auto;
@@ -1520,6 +1488,7 @@ h3 {
   .summer-list {
     margin-top: 40px;
   }
+
   .summer-item {
     margin-top: 150px;
   }
@@ -1530,42 +1499,52 @@ h3 {
     margin-left: 0;
     margin-right: 0;
   }
+
   .advantages-line {
     margin-left: 0;
     margin-right: 0;
   }
+
   .advantages-list {
     margin-left: 0;
     -webkit-box-pack: center;
       -ms-flex-pack: center;
         justify-content: center;
   }
+
   .advantages-item-description {
     width: 140px;
   }
+
   .advantages-students {
     display: none;
   }
+
   .advantages-item:nth-child(2) {
     padding-top: 0;
   }
+
   .advantages-item:nth-child(3) {
     padding-top: 0;
     margin-top: 17px;
   }
 
-	.summer-info {
-	  width: 80%;
-	}
+  .summer-info {
+    width: 80%;
+  }
+
   .summer-list {
     margin-top: 40px;
   }
+
   .summer-item {
     margin-top: 150px;
   }
+
   .summer-info {
     margin-bottom: 0;
   }
+
   .summer-info:last-child {
     padding-top: 0;
   }
@@ -1586,12 +1565,15 @@ h3 {
   .summer-list {
     margin-top: 40px;
   }
+
   .summer-item {
     margin-top: 150px;
   }
+
   .summer-info {
     margin-bottom: 0;
   }
+
   .summer-info:last-child {
     padding-top: 0;
   }
@@ -1601,17 +1583,21 @@ h3 {
   body {
     min-width: 768px;
   }
+
   h2 {
     font-size: 30px;
   }
+
   .main-navigation {
     -webkit-box-pack: justify;
       -ms-flex-pack: justify;
         justify-content: space-around;
   }
+
   .site-navigation {
     display: none;
   }
+
   .main-header-contacts {
     text-align: center;
   }
@@ -1725,9 +1711,11 @@ h3 {
     margin-bottom: 5%;
     max-width: 560px;
   }
+
   .first-screen-img {
     display: none;
   }
+
   .offer-description {
     text-align: center;
     margin: auto;
@@ -1735,11 +1723,13 @@ h3 {
     margin-top: 0;
     margin-bottom: 5%;
   }
+
   .services {
     -webkit-box-align: center;
       -ms-flex-align: center;
         align-items: center;
   }
+
   .services-list {
     -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1751,63 +1741,78 @@ h3 {
     -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   }
+
   .services-item {
     margin-right: 20px;
     margin-bottom: 20px;
   }
+
   .button {
     margin: auto;
     margin-top: 0;
   }
+
   .english-lessons-header  {
     width: 530px;
     text-align: center;
   }
+
   .english-lessons-description {
     margin-left: 10%;
   }
+
   .english-lessons-skills-header {
     margin-left: 10%;
     -webkit-box-pack: center;
       -ms-flex-pack: center;
         justify-content: center;
   }
+
   .english-lessons-skills {
     margin-left: 10%;
   }
+
   .english-lessons-button {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
   .call-form {
     padding-bottom: 25px;
   }
+
   .call-form-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
       -ms-flex-direction: column;
         flex-direction: column;
   }
+
   .call-form-action {
     -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
         order: -1;
     margin: auto;
   }
+
   .call-form-action-button {
     margin: 40px;
   }
+
   .call-form-advantages {
     margin: auto;
     margin-top: 30px;
   }
+
   .call-form-advantages-item:first-child {
     margin: auto;
     margin-bottom: 20px;
   }
+
   .call-form-advantages-item-description {
     text-align: center;
   }
+
   .footer-navigation {
     -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -1815,9 +1820,11 @@ h3 {
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .site-navigation-footer {
     display: none;
   }
+
   .main-footer-icon {
     display: block;
   }
@@ -1881,54 +1888,63 @@ h3 {
   body {
     min-width: 320px;
   }
+
   h1 {
     font-size: 20px;
   }
+
   h2 {
     font-size: 20px;
   }
+
   .main-header {
     background-image: url(../img/bg-header-tablet.png);
   }
+
   .main-navigation {
     -ms-flex-pack: distribute;
       justify-content: space-around;
   }
+
   .site-navigation {
     display: none;
   }
+
   .main-header-contacts {
     text-align: center;
   }
+
   .main-header-burger {
     display: block;
   }
+
   .offer {
     text-align: center;
     margin: auto;
     width: 90%;
     font-size: 20px;
     letter-spacing: 2px;
-    /*margin: 0;*/
     margin-top: 10%;
     margin-bottom: 10%;
   }
+
   .first-screen {
     -ms-flex-pack: distribute;
       justify-content: space-around;
     background-image: url(../img/bg-1-tablet.jpg);
     height: 400px
   }
+
   .first-screen-img {
     display: none;
   }
+
   .offer-description {
     text-align: center;
     margin: auto;
     width: 90%;
     margin-top: 0;
     font-size: 20px;
-/*    margin: 0;*/
     margin-bottom: 10%;
   }
 
@@ -1942,10 +1958,12 @@ h3 {
       -ms-flex-align: center;
         align-items: center;
   }
+
   .services-header {
     width: 180px;
     text-align: center;
   }
+
   .services-list {
     -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1957,18 +1975,22 @@ h3 {
     -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   }
+
   .services-item {
     margin: auto;
     margin-bottom: 20px;
   }
+
   .services-item:last-child {
     margin: auto;
     margin-bottom: 20px;
   }
+
   .button {
     margin: auto;
     margin-top: 0;
   }
+
   .offer-button {
     width: 235px;
     height: 57px;
@@ -1976,11 +1998,13 @@ h3 {
     margin: 0 auto;
     margin-bottom: 10px;
   }
+
   .advantages {
     background-image: url(../img/bg-3-tablet.jpg);
     padding-top: 5%;
     padding-bottom: 5%;
   }
+
   .advantages-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1989,35 +2013,43 @@ h3 {
     -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   }
+
   .advantages-item-description {
     width: 135px;
     margin: 0 auto;
   }
+
   .advantages-item:nth-child(2) {
     padding: 0;
     margin-left: 5%;
     margin-right: 5%;
   }
+
   .advantages-item:nth-child(3) {
     margin-top: 17px;
     margin-right: 5%;
   }
+
   .advantages-item:first-child {
     padding: 0;
     margin-left: 5%;
   }
+
   .english-lessons {
     background-image: none;
   }
+
   .english-lessons-header {
     width: 275px;
     text-align: center;
   }
+
   .english-lessons-description {
     margin-left: 10%;
     width: 275px;
     font-size: 12px;
   }
+
   .english-lessons-skills-header {
     margin-left: 10%;
     -webkit-box-pack: center;
@@ -2026,10 +2058,12 @@ h3 {
     font-size: 12px;
     width: 272px;
   }
+
   .english-lessons-skills {
     margin-left: 10%;
     line-height: 20px;
   }
+
   .english-lessons-button {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -2038,16 +2072,19 @@ h3 {
     font-size: 15px;
     letter-spacing: 1.91px;
   }
+
   .call-form {
     padding-bottom: 25px;
     background-image: url(../img/bg-5-tablet.png);
   }
+
   .call-form-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
       -ms-flex-direction: column;
         flex-direction: column;
   }
+
   .call-form-action {
     -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
@@ -2055,66 +2092,82 @@ h3 {
     margin: auto;
     width: 320px;
   }
+
   .call-form-action-name {
     width: 262px;
     font-size: 13px;
     padding: 15px;
   }
+
   .call-form-action-phone {
     width: 262px;
     font-size: 13px;
     padding: 15px;
   }
+
   .call-form-action-text {
     width: 262px;
     font-size: 13px;
     padding: 15px;
   }
+
   .call-form-action-button {
     margin: 30px;
     width: 262px;
     height: 42px;
     font-size: 14px;
   }
+
   .call-form-advantages {
     margin: auto;
     margin-top: 30px;
   }
+
   .call-form-advantages-item:first-child {
     margin: auto;
     margin-bottom: 20px;
   }
+
   .call-form-advantages-item-description {
     text-align: center;
     font-size: 12px;
     width: 275px;
   }
+
   .contacts-header {
     display: none;
   }
+
   .footer-navigation {
     -ms-flex-pack: distribute;
       justify-content: space-around;
   }
+
   .site-navigation-footer {
     display: none;
   }
+
   .main-footer-icon {
     display: block;
   }
+
+
   /*----------------------Страница Обучение------------*/
   .city-button {
     margin-bottom: 20px;
   }
+
   .study-first-screen {
     justify-content: space-around;
     background-image: url(../img/study_bg1.jpg);
     height: 400px;
   }
+
   .city-wrapper {
     width: 380px;
     margin: 20px 0;
   }
+
   .city-head {
     font-size: 25px;
   }
@@ -2190,7 +2243,6 @@ h3 {
     height: 400px;
   }
 
-
   .about-quote, 
   .quote-sign {
     font-size: 25px;
@@ -2227,30 +2279,35 @@ h3 {
   .video {
   	height: 400px;
   }
+
   /*---------Страница О нас---------------*/
   .about-first-img {
     width: 200px;
     top: 358px;
     left: 30%;
   }
+
   .about-first {
     height: 700px;
     justify-content: flex-start;
   }
+
   .quote-wrapper {
     height: 400px;
     justify-content: flex-start;
     margin-top: 20%;
     margin-bottom: 5%;
   }
+
   .about-quote {
     width: 90%;
     text-align: center;
   }
+
   .quote-sign {
     width: 90%;
   }
-  /*---------------------------------------*/
+  /*--------------------------------------------*/
 
 
   /*------------------Popup--------------------*/
@@ -2289,31 +2346,37 @@ h3 {
   float: left;
   height: 700px;
 }
+
 .img-one {
   background-image: url(../img/pedro-lastra.jpg);
   background-repeat: no-repeat;
   background-position: center;
  }
+
 .img-two {
   background-image: url(../img/about_bg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
  }
+
 .img-three {
   background-image: url(../img/summer-bg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
  }
+
 .img-four {
   background-image: url(../img/pedro-lastra.jpg);
   background-repeat: no-repeat;
   background-position: center;
  }
+
 .img-five {
   background-image: url(../img/about_bg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
  }
+
 .slider-figure { 
   position: relative;
   width: 500%;
