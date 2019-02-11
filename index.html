@@ -240,9 +240,14 @@
 			</ul>
 			<form class="call-form-action" action="https://echo.htmlacademy.ru" method="post">
 				<div class="call-form-action-wrapper">
-					<input type="text" placeholder="Имя" class="call-form-action-name" name="Username" required autocomplete="off">
-					<input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone" name="Userphone" required title="Формат xxx-xxxxxxx" autocomplete="off">
-					<textarea class="call-form-action-text" name="theme" placeholder="Тема консультации" maxlength="150"></textarea>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="American Education">
+					<input type="hidden" name="admin_email" value="admin@americaneducation.kz">
+					<input type="hidden" name="form_subject" value="Заявка на консультацию">
+					<!-- END Hidden Required Fields -->
+					<input type="text" placeholder="Имя" class="call-form-action-name" name="Имя_клиента" required autocomplete="off">
+					<input type="tel" placeholder="Телефон xxx-xxxxxxx" class="call-form-action-phone" name="Телефон_клиента" required title="Формат xxx-xxxxxxx" autocomplete="off">
+					<textarea class="call-form-action-text" name="Тема_консультации" placeholder="Тема консультации" maxlength="150"></textarea>
 					<button class="button call-form-action-button" type="submit">
 						заказать звонок
 					</button>
@@ -287,6 +292,7 @@
 		</p>
 	</footer>
 	<!-- <script defer="" src="https://www.youtube.com/iframe_api"></script> -->
-	<script src="js/up_script_min.js"></script>
+	<script src="js/jquery-1-7.min.js"></script>
+	<script src="js/up_script.js"></script>
 </body>
 </html>
