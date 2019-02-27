@@ -62,7 +62,7 @@ $mail->CharSet = 'UTF-8';
 $mail->setFrom($admin_email, 'Сообщение с сайта');
 
 /* Add a recipient. */
-$mail->addAddress('diskain98@mail.ru', 'Ulan Akhmetov');
+$mail->addAddress('americaneducation2018@yahoo.com', 'Ulan Akhmetov');
 
 /* Set the subject. */
 $mail->Subject = 'Заявка клиента с сайта American Education';
